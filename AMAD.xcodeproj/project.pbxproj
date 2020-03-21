@@ -30,6 +30,7 @@
 		C870E00024252B3100B84783 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF424252B3100B84783 /* UINavigationController.swift */; };
 		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
 		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
+		C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */; };
 		D6CDFC874C472B37D2FC786D /* Pods_AMAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		C870DFF424252B3100B84783 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 		E43CABB374792AC7B8F5860D /* Pods-AMAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.release.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 				C870DFDD2424EE1400B84783 /* LaunchScreen.storyboard */,
 				C870DFE02424EE1400B84783 /* Info.plist */,
 				C822542A24254C4B00749489 /* HomeViewController.swift */,
+				C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,
 				C870DFFB24252B3100B84783 /* TableView_Extension.swift in Sources */,
 				C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */,
+				C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

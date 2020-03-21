@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-AMAD/Pods-AMAD-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ExpandableTableViewController/ExpandableTableViewController.framework
 ${BUILT_PRODUCTS_DIR}/SideMenuController/SideMenuController.framework
