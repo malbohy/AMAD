@@ -28,15 +28,20 @@ class HomeViewController: UIViewController {
     */
     @IBAction func openDUmmyScreen(_ sender: Any) {
         
-        let vc = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
+//        let vc = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
+//
+//
+//        let lastScreenData = TemplateScreen(screenTitle:  "المراجع : ", screenContent: ScreensContent().getGeneralGuides())
+//        vc.screenContent = lastScreenData
+//
+//
+//        vc.modalPresentationStyle = .fullScreen
+//        self.present(vc, animated: true, completion: nil)
         
         
-        let lastScreenData = TemplateScreen(screenTitle:  "المراجع : ", screenContent: ScreensContent().getGeneralGuides())
-        vc.screenContent = lastScreenData
         
+        self.sideMenuController?.toggle()
         
-        vc.modalPresentationStyle = .fullScreen
-        self.present(vc, animated: true, completion: nil)
     }
     
     

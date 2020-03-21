@@ -28,6 +28,8 @@
 		C870DFFE24252B3100B84783 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF224252B3100B84783 /* String+Extenstion.swift */; };
 		C870DFFF24252B3100B84783 /* Encodable_Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */; };
 		C870E00024252B3100B84783 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF424252B3100B84783 /* UINavigationController.swift */; };
+		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
+		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
 		D6CDFC874C472B37D2FC786D /* Pods_AMAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		C870DFF224252B3100B84783 /* String+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
 		C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encodable_Extenstion.swift; sourceTree = "<group>"; };
 		C870DFF424252B3100B84783 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		E43CABB374792AC7B8F5860D /* Pods-AMAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.release.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +139,8 @@
 		C870DFD12424EE0F00B84783 /* AMAD */ = {
 			isa = PBXGroup;
 			children = (
+				C8E05E5424269BDF00340B9F /* SideMenu TableView */,
+				C8E05E512426932300340B9F /* RootViewController */,
 				C822542F24258D7100749489 /* Template Screen */,
 				C822542C24258C3300749489 /* Data */,
 				C870DFE624252B3100B84783 /* Extension */,
@@ -182,6 +188,22 @@
 				C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */,
 			);
 			path = DataExtenstion;
+			sourceTree = "<group>";
+		};
+		C8E05E512426932300340B9F /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C8E05E522426933800340B9F /* RootViewController.swift */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		C8E05E5424269BDF00340B9F /* SideMenu TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */,
+			);
+			path = "SideMenu TableView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +338,9 @@
 				C870DFD52424EE0F00B84783 /* SceneDelegate.swift in Sources */,
 				C822543224258DA700749489 /* ScreensContent.swift in Sources */,
 				C870DFF824252B3100B84783 /* UIImage+Extenstions.swift in Sources */,
+				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,
 				C870DFFB24252B3100B84783 /* TableView_Extension.swift in Sources */,
+				C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
