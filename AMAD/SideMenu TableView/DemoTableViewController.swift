@@ -10,13 +10,53 @@ import UIKit
 import ExpandableTableViewController
 
 class DemoTableViewController: ExpandableTableViewController, ExpandableTableViewDelegate {
+    
+    var screenContent:[MenuItem] = []
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.expandableTableView.expandableDelegate = self
+        
+        screenContent = SideMenuContent().getContent()
+        
+//        self.expandableTableView.backgroundView?.applyGradient(colours: [UIColor(hexString: "fcab2c"),UIColor(hexString: "e67d00")])
+
+        self.expandableTableView.backgroundColor = UIColor(hexString: "fcab2c")
+        
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    }
+    
+    
+    
     func expandableTableView(_ expandableTableView: ExpandableTableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return screenContent.count
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        print("will display cell")
+//        if screenContent[indexPath.row].menuSubItems.count > 0{
+//            cell.contentView.viewWithTag(3)?.hide()
+//            print("no submenus")
+//        }
     }
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, cellForRowAtExpandableIndexPath expandableIndexPath: ExpandableIndexPath) -> UITableViewCell {
-        let cell = expandableTableView.dequeueReusableCellWithIdentifier("head", forIndexPath: expandableIndexPath)
-        (cell.contentView.viewWithTag(1) as! UILabel).text = "Mohamed"
+        let cell = expandableTableView.dequeueReusableCellWithIdentifier("head", forIndexPath: expandableIndexPath) as! MenuHeaderTableViewCell
+        cell.configureCell(with: screenContent[expandableIndexPath.row])
+//        (cell.contentView.viewWithTag(1) as! UILabel).text = screenContent[expandableIndexPath.row].menuTitle
+//        if screenContent[expandableIndexPath.row].menuSubItems.count > 0{
+//            cell.contentView.viewWithTag(3)?.hide()
+//            print("no submenus")
+//        }
+        
+//        print(screenContent[expandableIndexPath.row].menuTitle)
+//        print(screenContent[expandableIndexPath.row].menuSubItems.count)
+        cell.backgroundColor = .clear
         return cell
     }
     
@@ -30,17 +70,21 @@ class DemoTableViewController: ExpandableTableViewController, ExpandableTableVie
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, didSelectRowAtExpandableIndexPath expandableIndexPath: ExpandableIndexPath) {
         
-        print("general row pressed")
+//        print("general row pressed")
     }
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, numberOfSubRowsInRowAtExpandableIndexPath expandableIndexPath: ExpandableIndexPath) -> Int {
-        return 10
+        return screenContent[expandableIndexPath.row].menuSubItems.count
     }
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, subCellForRowAtExpandableIndexPath expandableIndexPath: ExpandableIndexPath) -> UITableViewCell {
-        let cell = expandableTableView.dequeueReusableCellWithIdentifier("body", forIndexPath: expandableIndexPath)
+        let cell = expandableTableView.dequeueReusableCellWithIdentifier("body", forIndexPath: expandableIndexPath) 
 
-        (cell.contentView.viewWithTag(2) as! UILabel).text = "Elbohy"
+        (cell.contentView.viewWithTag(2) as! UILabel).text = screenContent[expandableIndexPath.row].menuSubItems[expandableIndexPath.subRow]
+        
+        
+        
+        cell.backgroundColor = .clear
         return cell
     }
     
@@ -54,19 +98,11 @@ class DemoTableViewController: ExpandableTableViewController, ExpandableTableVie
     
     func expandableTableView(_ expandableTableView: ExpandableTableView, didSelectSubRowAtExpandableIndexPath expandableIndexPath: ExpandableIndexPath) {
         
-        print("sub row pressed")
+//        print("sub row pressed")
     }
     
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.expandableTableView.expandableDelegate = self
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
 
     // MARK: - Table view data source
 
@@ -136,3 +172,6 @@ class DemoTableViewController: ExpandableTableViewController, ExpandableTableVie
     */
 
 }
+
+
+

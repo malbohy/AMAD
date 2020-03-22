@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81CAE072426E72300965046 /* UILabelExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CAE062426E72300965046 /* UILabelExtenstion.swift */; };
+		C81CAE0A2426E8CB00965046 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CAE092426E8CB00965046 /* Labels.swift */; };
 		C822542B24254C4B00749489 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542A24254C4B00749489 /* HomeViewController.swift */; };
 		C822542E24258C4900749489 /* TemplateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542D24258C4900749489 /* TemplateScreen.swift */; };
 		C822543224258DA700749489 /* ScreensContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822543124258DA700749489 /* ScreensContent.swift */; };
@@ -31,12 +33,18 @@
 		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
 		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
 		C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */; };
+		C8E05E5D2426C5C900340B9F /* SideMenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5C2426C5C900340B9F /* SideMenuContent.swift */; };
+		C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5E2426C5E300340B9F /* MenuItem.swift */; };
+		C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E612426DECF00340B9F /* MenuHeaderTableViewCell.swift */; };
+		C8E05E642426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E632426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift */; };
 		D6CDFC874C472B37D2FC786D /* Pods_AMAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26BAE3952788802611495203 /* Pods-AMAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.debug.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.debug.xcconfig"; sourceTree = "<group>"; };
 		9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81CAE062426E72300965046 /* UILabelExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtenstion.swift; sourceTree = "<group>"; };
+		C81CAE092426E8CB00965046 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		C822542A24254C4B00749489 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C822542D24258C4900749489 /* TemplateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateScreen.swift; sourceTree = "<group>"; };
 		C822543124258DA700749489 /* ScreensContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensContent.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		C8E05E5C2426C5C900340B9F /* SideMenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuContent.swift; sourceTree = "<group>"; };
+		C8E05E5E2426C5E300340B9F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		C8E05E612426DECF00340B9F /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		C8E05E632426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBodyTableViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		E43CABB374792AC7B8F5860D /* Pods-AMAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.release.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,9 +107,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C81CAE082426E8A200965046 /* CommonControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C81CAE092426E8CB00965046 /* Labels.swift */,
+			);
+			path = CommonControllers;
+			sourceTree = "<group>";
+		};
 		C822542C24258C3300749489 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				C8E05E5B2426C5B000340B9F /* SideMenuContent */,
 				C822543124258DA700749489 /* ScreensContent.swift */,
 			);
 			path = Data;
@@ -141,6 +162,7 @@
 		C870DFD12424EE0F00B84783 /* AMAD */ = {
 			isa = PBXGroup;
 			children = (
+				C81CAE082426E8A200965046 /* CommonControllers */,
 				C8E05E5424269BDF00340B9F /* SideMenu TableView */,
 				C8E05E512426932300340B9F /* RootViewController */,
 				C822542F24258D7100749489 /* Template Screen */,
@@ -153,7 +175,6 @@
 				C870DFDD2424EE1400B84783 /* LaunchScreen.storyboard */,
 				C870DFE02424EE1400B84783 /* Info.plist */,
 				C822542A24254C4B00749489 /* HomeViewController.swift */,
-				C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -178,6 +199,7 @@
 				C870DFEC24252B3100B84783 /* CollectionVIew+Extenstions.swift */,
 				C870DFED24252B3100B84783 /* UIColor_Extenstion.swift */,
 				C870DFEE24252B3100B84783 /* TableView_Extension.swift */,
+				C81CAE062426E72300965046 /* UILabelExtenstion.swift */,
 			);
 			path = UIExtenstions;
 			sourceTree = "<group>";
@@ -204,9 +226,29 @@
 		C8E05E5424269BDF00340B9F /* SideMenu TableView */ = {
 			isa = PBXGroup;
 			children = (
+				C8E05E602426DE9E00340B9F /* Cells */,
+				C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */,
 				C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */,
 			);
 			path = "SideMenu TableView";
+			sourceTree = "<group>";
+		};
+		C8E05E5B2426C5B000340B9F /* SideMenuContent */ = {
+			isa = PBXGroup;
+			children = (
+				C8E05E5C2426C5C900340B9F /* SideMenuContent.swift */,
+				C8E05E5E2426C5E300340B9F /* MenuItem.swift */,
+			);
+			path = SideMenuContent;
+			sourceTree = "<group>";
+		};
+		C8E05E602426DE9E00340B9F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C8E05E612426DECF00340B9F /* MenuHeaderTableViewCell.swift */,
+				C8E05E632426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */,
+				C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */,
 				C822542E24258C4900749489 /* TemplateScreen.swift in Sources */,
+				C81CAE072426E72300965046 /* UILabelExtenstion.swift in Sources */,
 				C870DFF724252B3100B84783 /* UIScrollView+Extenstion.swift in Sources */,
 				C870DFFE24252B3100B84783 /* String+Extenstion.swift in Sources */,
 				C870DFD72424EE0F00B84783 /* ViewController.swift in Sources */,
@@ -340,9 +385,12 @@
 				C870DFFA24252B3100B84783 /* UIColor_Extenstion.swift in Sources */,
 				C870DFD52424EE0F00B84783 /* SceneDelegate.swift in Sources */,
 				C822543224258DA700749489 /* ScreensContent.swift in Sources */,
+				C8E05E642426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift in Sources */,
 				C870DFF824252B3100B84783 /* UIImage+Extenstions.swift in Sources */,
+				C8E05E5D2426C5C900340B9F /* SideMenuContent.swift in Sources */,
 				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,
 				C870DFFB24252B3100B84783 /* TableView_Extension.swift in Sources */,
+				C81CAE0A2426E8CB00965046 /* Labels.swift in Sources */,
 				C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */,
 				C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */,
 			);
