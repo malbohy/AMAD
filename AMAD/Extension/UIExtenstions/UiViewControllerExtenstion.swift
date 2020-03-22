@@ -70,6 +70,13 @@ extension NSObjectProtocol{
 }
 
 
+extension UIViewController{
+    static func getViewController(fromStoryBoardNamed storyBoardName:String , withIdentifier id:String )-> UIViewController{
+        return UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: id)
+    }
+}
+
+
 
 
 

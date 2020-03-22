@@ -25,12 +25,9 @@ class MenuHeaderTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
-    override func didMoveToSuperview() {
-        print("move to super view \(item.menuSubItems.count)")
-    }
 
     func configureCell(with Item:MenuItem){
+        self.backgroundColor = .clear
         if Item.menuSubItems.count > 0 {
             self.title.text = Item.menuTitle + " "
             self.title.addImage(imageName: "ic_menu_arrow")
@@ -50,34 +47,7 @@ class MenuHeaderTableViewCell: UITableViewCell {
 
 
 
-//class customLabel:UILabel{
-//
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        fontStyle()
-//    }
-//
-//    required init?(coder: NSCoder) {
-//        super.init(coder: coder)
-//        fontStyle()
-//    }
-//
-//
-//    func fontStyle(){
-//        self.font = UIFont(name: "HelveticaNeue-UltraLight", size: 30)
-//        //self.textColor = self.settings.primaryColor
-////        self.textColor = self.settings.primaryColor
-////
-////        if self.state == .primary {
-////            self.textColor = self.settings.primaryColor
-////        } else {
-////            self.textColor = self.settings.primaryColor
-////        }
-//
-//        //TODO:: add the needed font
-//    }
-//
-//}
+
     
 
 

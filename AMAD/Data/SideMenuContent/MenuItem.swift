@@ -12,3 +12,12 @@ struct MenuItem{
     var menuTitle:String
     var menuSubItems:[String]
 }
+
+
+
+enum MenuItemsTypes {
+    case mm
+    
+    
+    
+}

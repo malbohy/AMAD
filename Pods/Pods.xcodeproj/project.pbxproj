@@ -56,7 +56,7 @@
 		2587F005B194D0E1CC9619CEFF07AF16 /* SideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuController-dummy.m"; sourceTree = "<group>"; };
 		2C25C1D9FB05A21CA16D2D28B4608AC1 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Source/TransitionAnimator.swift; sourceTree = "<group>"; };
 		30037AFB5610E60239165D562D47F2EC /* ExpandableTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExpandableTableViewController-prefix.pch"; sourceTree = "<group>"; };
-		3003EA927905D5F010C8EE624F1794A6 /* ExpandableTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExpandableTableViewController.framework; path = ExpandableTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3003EA927905D5F010C8EE624F1794A6 /* ExpandableTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExpandableTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30419D8131E3940C5D09878753F8869E /* ExpandableTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpandableTableViewController.debug.xcconfig; sourceTree = "<group>"; };
 		31A0805920EE3620B67323A27A837073 /* Pods-AMAD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMAD-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,8 +64,8 @@
 		442DD06DBEDFBEA427B8B5D808844774 /* ExpandableTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ExpandableTableViewController.modulemap; sourceTree = "<group>"; };
 		4BBD7EF796F403A68828D2C851F9B533 /* UIKitExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitExtensions.swift; path = Source/UIKitExtensions.swift; sourceTree = "<group>"; };
 		51118CF91349278059B01BD9D648A84C /* ExpandableTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpandableTableViewDelegate.swift; path = ExpandableTableViewController/Classes/ExpandableTableViewDelegate.swift; sourceTree = "<group>"; };
-		580A240075076E534FAE7B12EF18E04B /* SideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuController.framework; path = SideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FA1976D08F5BDF96F08E9BBA6168165 /* Pods_AMAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMAD.framework; path = "Pods-AMAD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A240075076E534FAE7B12EF18E04B /* SideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA1976D08F5BDF96F08E9BBA6168165 /* Pods_AMAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F4F1AF2EA4857C4062C3603E8FC058 /* SideMenuController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuController.debug.xcconfig; sourceTree = "<group>"; };
 		7ADC8D9EE6B1F909C04E6DDA613BACDF /* Pods-AMAD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMAD-frameworks.sh"; sourceTree = "<group>"; };
 		89E1CBC3C503DF911B377EF0CF0B83CA /* SideMenuController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuController.release.xcconfig; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		8AACEE075CB95D9C3BE080FACE7F5C6F /* SideMenuController+SideOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SideMenuController+SideOver.swift"; path = "Source/SideMenuController+SideOver.swift"; sourceTree = "<group>"; };
 		96AF3CCF5878032A63F29EB8FAC8685E /* Pods-AMAD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMAD-acknowledgements.plist"; sourceTree = "<group>"; };
 		96C06253F421479EBCC92F2DB58D3251 /* Pods-AMAD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMAD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3B7D92A65D383DE39762B78B6B6E7BF /* ExpandableTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpandableTableViewController-dummy.m"; sourceTree = "<group>"; };
 		A435D4070D3DE03026C7160A6EB76A02 /* Pods-AMAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMAD.release.xcconfig"; sourceTree = "<group>"; };
 		AEF3DC0467AFF74B3DA09E0834584C8D /* Pods-AMAD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMAD.modulemap"; sourceTree = "<group>"; };
@@ -139,7 +139,6 @@
 				4BBD7EF796F403A68828D2C851F9B533 /* UIKitExtensions.swift */,
 				A113C3789AF081DDA5D9CCDCC962A8AD /* Support Files */,
 			);
-			name = SideMenuController;
 			path = SideMenuController;
 			sourceTree = "<group>";
 		};
@@ -183,7 +182,6 @@
 				51118CF91349278059B01BD9D648A84C /* ExpandableTableViewDelegate.swift */,
 				633F74400133F4FB7C9D51BDD569E1BA /* Support Files */,
 			);
-			name = ExpandableTableViewController;
 			path = ExpandableTableViewController;
 			sourceTree = "<group>";
 		};
