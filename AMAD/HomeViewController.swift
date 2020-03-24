@@ -10,10 +10,21 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var menuButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.bringSubviewToFront(menuButton)
+        
         // Do any additional setup after loading the view.
+        
+////        self.navigationController?.navigationBar.isHidden = false
+//        self.navigationController?.navigationBar.isUserInteractionEnabled = false
+////        self.sideMenuController?.navigationController?.navigationBar.isHidden = true
+////        self.sideMenuController?.sideViewController.navigationController?.navigationBar.isHidden = true
+//        print(" current Nav \(self.navigationController)")
+//        print(" current Nav \(self.sideMenuController?.navigationController)")
+//        print(" current Nav \(self.sideMenuController?.sideViewController.navigationController)")
     }
     
 
@@ -42,78 +53,44 @@ class HomeViewController: UIViewController {
         
         self.sideMenuController?.toggle()
         
+        
+        
+    }
+    
+    @IBAction func dummyButton(_ sender: Any) {
+        
+        print("button clicked")
     }
     
     
     
-//    func localDummyData()-> [String]{
-//        var content:[String] = []
-//        for i in 0..<20{
-//            print("added data")
-//            content.append("\(i)Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy Mohamed . mohamed . albohy ")
-//        }
-//        return content
-//    }
+    @IBAction func ab7asButtonTapped(_ sender: Any) {
+        print("button clicked")
+    }
+    
+    
+    
+    @IBAction func toro23lagSa7e7aButtonTapped(_ sender: Any) {
+        print("button clicked")
+    }
+    
+    
+    @IBAction func a5ta2Sha23aButtonTapped(_ sender: Any) {
+        print("button clicked")
+    }
+    
+    
+    
+    
+    @IBAction func estesharaButtunTapped(_ sender: Any) {
+        print("button clicked")
+    }
+    
+    
+    
+    
+
     
 }
 
 
-
-
-//struct screensContent{
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-////    func getLastScreen()->[String]{
-////        var content:[String] = []
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        content.append("")
-////        return content
-////    }
-//
-//
-//}

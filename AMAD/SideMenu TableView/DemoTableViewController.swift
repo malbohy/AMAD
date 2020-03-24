@@ -15,6 +15,8 @@ class DemoTableViewController: ExpandableTableViewController, ExpandableTableVie
     var menuTapped:MenuItemTapped?
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.navigationController?.navigationBar.isHidden = false
+//        self.navigationController?.navigationBar.backgroundColor = UIColor.red
         self.expandableTableView.expandableDelegate = self
         screenContent = SideMenuContent().getContent()
         self.expandableTableView.backgroundColor = UIColor(hexString: "fcab2c")
