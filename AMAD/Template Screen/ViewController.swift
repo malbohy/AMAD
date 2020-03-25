@@ -23,12 +23,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var contentStack: UIStackView!
     @IBOutlet weak var screenContentHightConstraint: NSLayoutConstraint!
     
+    
+    var childView:UIViewController?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        localDummyData()
         setupScreenUI()
-        setupScreenContent()
+//        setupScreenContent()
         
+        
+        embedd()
         
     }
     
@@ -84,6 +91,18 @@ class ViewController: UIViewController {
     
     @IBAction func addressBookButtonTapped(_ sender: UIButton) {
         
+    }
+    
+    
+    
+    func embedd(){
+        guard let childView = self.childView else{
+            print("you must provide a child view")
+            return
+        }
+        self.addChild(childView)
+        contentStack.addArrangedSubview(childView.view)
+        childView.didMove(toParent: childView)
     }
     
     

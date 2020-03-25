@@ -35,6 +35,8 @@
 		C870DFFE24252B3100B84783 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF224252B3100B84783 /* String+Extenstion.swift */; };
 		C870DFFF24252B3100B84783 /* Encodable_Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */; };
 		C870E00024252B3100B84783 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF424252B3100B84783 /* UINavigationController.swift */; };
+		C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8832246242B168F0090412C /* OpenTemplateScreen.swift */; };
+		C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8832248242B179F0090412C /* ContentScreens.storyboard */; };
 		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
 		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
 		C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */; };
@@ -78,6 +80,8 @@
 		C870DFF224252B3100B84783 /* String+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
 		C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encodable_Extenstion.swift; sourceTree = "<group>"; };
 		C870DFF424252B3100B84783 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		C8832246242B168F0090412C /* OpenTemplateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTemplateScreen.swift; sourceTree = "<group>"; };
+		C8832248242B179F0090412C /* ContentScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentScreens.storyboard; sourceTree = "<group>"; };
 		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 		C870DFD12424EE0F00B84783 /* AMAD */ = {
 			isa = PBXGroup;
 			children = (
+				C8832245242B16720090412C /* Helpers */,
 				C870DFE624252B3100B84783 /* Extension */,
 				C81CAE082426E8A200965046 /* CommonControllers */,
 				C81CAE1024276C2900965046 /* Auth */,
@@ -221,6 +226,7 @@
 				C870DFDD2424EE1400B84783 /* LaunchScreen.storyboard */,
 				C870DFE02424EE1400B84783 /* Info.plist */,
 				C822542A24254C4B00749489 /* HomeViewController.swift */,
+				C8832248242B179F0090412C /* ContentScreens.storyboard */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -259,6 +265,14 @@
 				C870DFF324252B3100B84783 /* Encodable_Extenstion.swift */,
 			);
 			path = DataExtenstion;
+			sourceTree = "<group>";
+		};
+		C8832245242B16720090412C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C8832246242B168F0090412C /* OpenTemplateScreen.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		C8E05E512426932300340B9F /* RootViewController */ = {
@@ -358,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */,
 				C81CAE1224276C5A00965046 /* Auth.storyboard in Resources */,
 				C870DFDF2424EE1400B84783 /* LaunchScreen.storyboard in Resources */,
 				C870DFDC2424EE1400B84783 /* Assets.xcassets in Resources */,
@@ -415,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C81CAE1C242779C800965046 /* LoginViewController.swift in Sources */,
+				C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */,
 				C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */,
 				C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */,
 				C822542E24258C4900749489 /* TemplateScreen.swift in Sources */,

@@ -66,6 +66,26 @@ class HomeViewController: UIViewController {
     
     @IBAction func ab7asButtonTapped(_ sender: Any) {
         print("button clicked")
+        
+        
+        OpenTemplateScreen().open(from: self, with: "ContentScreens", ID: "testingVIew")
+        
+//        let vc = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
+//        //        let lastScreenData = TemplateScreen(screenTitle:  "مواقع تهمك : ", screenContent: ScreensContent().getVIPWebSites())
+//        //        vc.screenContent = lastScreenData
+//
+//
+//
+//
+//                let childVC = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "testingVIew")
+//
+//
+//                vc.childView = childVC
+//
+//                vc.modalPresentationStyle = .fullScreen
+//                self.present(vc, animated: true, completion: nil)
+        
+        
     }
     
     

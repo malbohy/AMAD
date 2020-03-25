@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="AWH-FT-bkC">
+            <objects>
+                <viewController storyboardIdentifier="testingVIew" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jhg-zc-nWx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MG7-o4-Jyl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qb3-Yf-Yiz">
+                                <rect key="frame" x="0.0" y="44" width="320" height="1922"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8K-dm-5C1">
+                                        <rect key="frame" x="132" y="0.0" width="56" height="640.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tR-Ys-1qh">
+                                        <rect key="frame" x="132" y="640.5" width="56" height="641"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiN-dU-CXM">
+                                        <rect key="frame" x="132" y="1281.5" width="56" height="640.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1922" id="A8a-kd-ueJ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="imD-kj-Yzb" firstAttribute="trailing" secondItem="Qb3-Yf-Yiz" secondAttribute="trailing" id="FJW-RH-S1q"/>
+                            <constraint firstItem="imD-kj-Yzb" firstAttribute="bottom" secondItem="Qb3-Yf-Yiz" secondAttribute="bottom" id="JlC-eQ-4aM"/>
+                            <constraint firstItem="Qb3-Yf-Yiz" firstAttribute="top" secondItem="imD-kj-Yzb" secondAttribute="top" id="mRA-sv-hHH"/>
+                            <constraint firstItem="Qb3-Yf-Yiz" firstAttribute="leading" secondItem="imD-kj-Yzb" secondAttribute="leading" id="mjO-cO-icl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="imD-kj-Yzb"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="2000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmy-x9-gxY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1879" y="2093"/>
+        </scene>
+    </scenes>
+</document>
