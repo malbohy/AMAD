@@ -79,6 +79,36 @@ class MenuItemTapped {
                 OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el_se7a_el_nafsya",title: "الصحة النفسية")
             break
             
+        case "تمارين التأمل والاسترخاء":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "tmareen_ta2mol_estr5a2",title: "تمارين التأمل والاسترخاء")
+            break
+            
+            case "تمارين تقوية الذاكرة والتركيز":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "tmareen_zakera_tarkez",title: "تمارين تقوية الذاكرة والتركيز")
+            break
+            
+            case "إرشادات هامة":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "ershadat_hama",title: "إرشادات هامة")
+            break
+
+            case "مواقع تهمك":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "wbsites",title: "مواقع تهمك")
+            break
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         default:
             print("\(title)")
             print("no screen found")
