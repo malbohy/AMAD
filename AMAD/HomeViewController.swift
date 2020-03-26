@@ -68,7 +68,7 @@ class HomeViewController: UIViewController {
         print("button clicked")
         
         
-        OpenTemplateScreen().open(from: self, with: "ContentScreens", ID: "testingVIew")
+        OpenTemplateScreen().open(from: self, with: "ContentScreens", ID: "ma_hwa_tasalob",title: "ما هو التصلب المتعدد؟")
         
 //        let vc = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
 //        //        let lastScreenData = TemplateScreen(screenTitle:  "مواقع تهمك : ", screenContent: ScreensContent().getVIPWebSites())

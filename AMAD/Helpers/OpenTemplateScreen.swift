@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 struct OpenTemplateScreen {
-    func open(from parent:UIViewController,with storyBoardName:String, ID vcID:String ){
+    func open(from parent:UIViewController,with storyBoardName:String, ID vcID:String, title:String ){
         let vc = parent.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
         let childVC = parent.getViewController(fromStoryBoardNamed: storyBoardName, withIdentifier: vcID)
+        vc.screenTitle = title
         vc.childView = childVC
         vc.modalPresentationStyle = .fullScreen
         parent.present(vc, animated: true, completion: nil)
