@@ -51,6 +51,34 @@ class MenuItemTapped {
         case "كيف يتعايش المصاب مع المرض؟":
             OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "ta3ayosh_m3a_tasalob",title: "التعايش")
             break
+        case "العلاج الطبيعي":
+            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el3lag_el_tabe3y",title: "العلاج الطبيعي")
+            break
+            
+        case "العلاج الوظيفي":
+            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el3lag_el_wazefy",title: "العلاج الوظيفي")
+            break
+            
+        case "العلاج الترفيهي":
+            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el3lag_el_tarfehy",title: "العلاج الترفيهي")
+            break
+            
+        case "العلاج بالفن":
+            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el3lag_bl_fan",title: "العلاج بالفــــن")
+            break
+            
+        case "التغذية العلاجية":
+            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el_ta8zaya_el_3lagya",title: "التغذية العلاجية")
+            break
+            
+//        case "الرياضة العلاجية":
+//            OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el_ta8zaya_el_3lagya",title: "التغذية العلاجية")
+//            break
+        
+            case "الصحة النفسية":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "el_se7a_el_nafsya",title: "الصحة النفسية")
+            break
+            
         default:
             print("\(title)")
             print("no screen found")
