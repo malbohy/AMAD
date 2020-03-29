@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -71,7 +72,10 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWc-YQ-A69">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="107.5"/>
-                                        <string key="text">الهجمات هي فترات منأعراض الجهاز العصبي الجديدة  او المتفاقمة التي تستمرعلى الأقل لمدة 24 ساعه، لكن عادة ما تستمر من بضعة أيام  الى عدد من الاسابيع أو الأشهر.</string>
+                                        <string key="text">الهجمات هي فترات من
+أعراض الجهاز العصبي 
+الجديدة  او المتفاقمة التي تستمر
+على الأقل لمدة 24 ساعه، لكن عادة ما تستمر من بضعة أيام  الى عدد من الاسابيع أو الأشهر.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -110,7 +114,8 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8u-Cl-90m">
                                         <rect key="frame" x="0.0" y="1092.5" width="320" height="107.5"/>
-                                        <string key="text">بالرنين اَّلمغناطيسي. وَّقد تَّظهر البؤر أَّو تَّنمو بَّشكل أَّكبر دَّون حدوث اعراض عَّلى اَّلفور، وَّلكن يَّمكن أَّنَّتكون عَّلامة عَّلى حَّدوث أَّضرار لَّا يَّمكن اَّلتعامل مَّعها، وَّربما تَّؤدي إَّلى تَّقدم اَّلإعاقة.</string>
+                                        <string key="text">بالرنين اَّلمغناطيسي. وَّقد تَّظهر البؤر أَّو تَّنمو بَّشكل أَّكبر دَّون حدوث اعراض عَّلى اَّلفور، وَّلكن يَّمكن أَّنَّ
+تكون عَّلامة عَّلى حَّدوث أَّضرار لَّا يَّمكن اَّلتعامل مَّعها، وَّربما تَّؤدي إَّلى تَّقدم اَّلإعاقة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -200,7 +205,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VF0-Gk-qXR">
                                         <rect key="frame" x="0.0" y="1005.5" width="320" height="64.5"/>
-                                        <string key="text">يزداد معدل الإصابة بالمرض في البلاد البعيدة عن خط الاستواء.لا يوجد دواء للشفاء من التصلب المتعدد. </string>
+                                        <string key="text">يزداد معدل الإصابة بالمرض في البلاد البعيدة عن خط الاستواء.
+لا يوجد دواء للشفاء من التصلب المتعدد. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -285,7 +291,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jz6-IU-1ot">
                                         <rect key="frame" x="0.0" y="261" width="320" height="239"/>
-                                        <string key="text">سيتم إجراء اختبار عصبي، وأشعة ، وقد يحتاج الطبيب- ليس في كل الحالات- لعمل تحليل للسائل المحيط بالحبل الشوكي، قد يحتاج الى فحص جهد العصب البصرى وربما اختبارات أخرى. هذه الاختبارات يمكنها أن تساعد في استبعاد الأسباب المحتملة الأخرى للأعراض.</string>
+                                        <string key="text">سيتم إجراء اختبار عصبي، وأشعة ، وقد يحتاج الطبيب- ليس في كل الحالات- لعمل تحليل للسائل المحيط بالحبل الشوكي، قد يحتاج الى فحص جهد العصب البصرى
+ وربما اختبارات أخرى. هذه الاختبارات يمكنها أن تساعد في استبعاد الأسباب المحتملة الأخرى للأعراض.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -323,14 +330,18 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-to-eda">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
-                                        <string key="text">1. التصلب المتعدد الانتكاسي المتردد (RRMS):</string>
+                                        <string key="text">1. التصلب المتعدد الانتكاسي المتردد (RRMS):
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="0.91764705879999997" green="0.50588235290000005" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gni-gG-f0N">
                                         <rect key="frame" x="0.0" y="220" width="320" height="215"/>
-                                        <mutableString key="text">یتم تشخیص معظم مرضى التصلب المتعدد (حوالي 85 ٪) بھذا النوع.یعاني مریض التصلب المتعدد الانتكاسي من فترات متقطعة من الانتكاسات (نوبات) تتبعھا فترات من التعافي (سكون). التعافي بين النوبة والأخرى إما أن يكون كاملا أو يترك أثرا طويلا.أعراض التصلب المتعدد الانتكاسي الأكثر شيوعا:نوبات إجهاد متقطعة، تنميل، مشاكل الرؤية، التشنج أو التصلب، مشاكل الأمعاء والمثانة.</mutableString>
+                                        <string key="text">یتم تشخیص معظم مرضى التصلب المتعدد (حوالي 85 ٪) بھذا النوع.
+یعاني مریض التصلب المتعدد الانتكاسي من فترات متقطعة من الانتكاسات (نوبات) تتبعھا فترات من التعافي (سكون). التعافي بين النوبة والأخرى إما أن يكون كاملا أو يترك أثرا طويلا.
+أعراض التصلب المتعدد الانتكاسي الأكثر شيوعا:
+نوبات إجهاد متقطعة، تنميل، مشاكل الرؤية، التشنج أو التصلب، مشاكل الأمعاء والمثانة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -350,7 +361,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ic-bK-oUD">
                                         <rect key="frame" x="0.0" y="640" width="320" height="236.5"/>
-                                        <mutableString key="text">في ھذا النوع، یتدھور المرض من البدایة، ونادرا ما یكون ھناك أي انتكاسات أو تعافي. ومع ذلك قد یعاني بعض مرضى التصلب المتعدد التقدمي الأوّلي من انتكاسات في بعض الأحیان.يعد التصلب المتعدد التقدمي الأوّلي أكثر إعاقة من التصلب المتعدد الانتكاسي فمرضى التصلب المتعدد التقدمي الأوّلي يعتمدون على مساعدات التنقل أو الكراسي المتحركة بمعدل أكبر من مرضى التصلب المتعدد الانتكاسي.</mutableString>
+                                        <string key="text">في ھذا النوع، یتدھور المرض من البدایة، ونادرا ما یكون ھناك أي انتكاسات أو تعافي. ومع ذلك قد یعاني بعض مرضى التصلب المتعدد التقدمي الأوّلي من انتكاسات في بعض الأحیان.
+يعد التصلب المتعدد التقدمي الأوّلي أكثر إعاقة من التصلب المتعدد الانتكاسي فمرضى التصلب المتعدد التقدمي الأوّلي يعتمدون على مساعدات التنقل أو الكراسي المتحركة بمعدل أكبر من مرضى التصلب المتعدد الانتكاسي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -364,7 +376,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-bn-hIo">
                                         <rect key="frame" x="0.0" y="1049.5" width="320" height="150.5"/>
-                                        <mutableString key="text">يمكن أن يعاني الأشخاص المصابون بهذا النوع من مشاكل أكثر في التفكير والنطق عن الأشخاص المصابون بالتصلب المتعدد الانتكاسي. يحدث انخفاض حاد في نوعية حياة الأشخاص المصابون بهذا النوع بعد فقد وظيفة الذراع والتي تحدث أسرع في الأشخاص المصابون بالتصلب المتعدد التقدمي الأوّلي.</mutableString>
+                                        <string key="text">يمكن أن يعاني الأشخاص المصابون بهذا النوع من مشاكل أكثر في التفكير والنطق عن الأشخاص المصابون بالتصلب المتعدد الانتكاسي. يحدث انخفاض حاد في نوعية حياة الأشخاص المصابون بهذا النوع بعد فقد وظيفة الذراع والتي تحدث أسرع في الأشخاص المصابون بالتصلب المتعدد التقدمي الأوّلي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -399,7 +411,9 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mH-ox-Os2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="500"/>
-                                        <string key="text">يُصيب التصلب المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..</string>
+                                        <string key="text">يُصيب التصلب
+ المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -434,7 +448,9 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3E-vh-O93">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="107.5"/>
-                                        <string key="text">تحاط الألیاف العصبیة في الجھاز العصبي بطبقة تسمى المایلین، والتي تقوم بحمایة ھذه الألیاف ومساعدتھا على نقل الإشارات الكھربائیة بشكل سریعوفعّال بين المخ وبقية الجسم.</string>
+                                        <string key="text">تحاط الألیاف العصبیة في
+ الجھاز العصبي بطبقة تسمى المایلین، والتي تقوم بحمایة ھذه الألیاف ومساعدتھا على نقل الإشارات الكھربائیة بشكل سریع
+وفعّال بين المخ وبقية الجسم.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -467,7 +483,10 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGO-Mq-Udz">
                                         <rect key="frame" x="0.0" y="502" width="320" height="193.5"/>
-                                        <string key="text">هناك جينات خاصة مرتبطة بالإصابة بالتصلب المتعدد. أغلب هذه الجينات لها تأثير على مكونات محددة من الجهاز المناعي. هذه الجينات أيضا تساهم بشكل أكبر من الجينات الأخرى في الإصابة بالمرض.لا يؤثر  التصلب المتعدد على خصوبة الرجل او المرأة.</string>
+                                        <string key="text">هناك جينات خاصة مرتبطة بالإصابة بالتصلب المتعدد. أغلب هذه الجينات لها تأثير على مكونات محددة من الجهاز المناعي. هذه الجينات أيضا تساهم بشكل أكبر من الجينات الأخرى في الإصابة بالمرض.
+لا يؤثر  التصلب المتعدد على خصوبة الرجل او المرأة.
+
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -486,7 +505,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ML-gN-Ruh">
                                         <rect key="frame" x="0.0" y="852.5" width="320" height="172"/>
-                                        <mutableString key="text">قلة التعرض لأشعة الشمس مرتبط بزيادة معدل الإصابة بالتصلب المتعدد وهناك أدلة متزايدة أن نقص فيتامين د يزيد معدل حدوث العديد من الأمراض منها التصلب المتعدد. وبما أننا نحصل على أغلب ما نحتاجه من فيتامين د من التعرض لأشعة الشمس فقلة التعرض للشمس وما ينتج عنه من نقص فيتامين د يعد سبب لهذا التأثير.</mutableString>
+                                        <string key="text">قلة التعرض لأشعة الشمس مرتبط بزيادة معدل الإصابة بالتصلب المتعدد وهناك أدلة متزايدة أن نقص فيتامين د يزيد معدل حدوث العديد من الأمراض منها التصلب المتعدد. وبما أننا نحصل على أغلب ما نحتاجه من فيتامين د من التعرض لأشعة الشمس فقلة التعرض للشمس وما ينتج عنه من نقص فيتامين د يعد سبب لهذا التأثير.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -500,7 +519,10 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGR-0Y-cmr">
                                         <rect key="frame" x="0.0" y="1154.5" width="320" height="45.5"/>
-                                        <string key="text">التدخين هو أحد العوامل البيئية التي ترتبط بقوة بخطرالإصابة بالتصلب اللويحي المتعدد.الاصابه القديمه بفايروس ابشتاين بار فايروس EBV</string>
+                                        <string key="text">التدخين هو أحد العوامل البيئية التي ترتبط بقوة بخطرالإصابة بالتصلب اللويحي المتعدد.
+الاصابه القديمه بفايروس ابشتاين بار فايروس EBV
+
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -535,42 +557,52 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyN-Tc-VEB">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                        <string key="text">كل شخص لديه تحدياتمختلفة. سوف تحتاج علىالأرجح بعض الوقت والمساحة للتكيف مع تشخيصك.</string>
+                                        <string key="text">كل شخص لديه تحديات
+مختلفة. سوف تحتاج على
+الأرجح بعض الوقت والمساحة للتكيف مع تشخيصك.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZC-XT-idg">
                                         <rect key="frame" x="0.0" y="108" width="320" height="215"/>
-                                        <mutableString key="text">ينصح مرضى التصلب المتعدد الذين تعايشوا مع مرضهم لفترة من الوقت بأن أهم الأمور هي أن يعيش كل يوم كما هو، والبحث في حياتك عن أشياء تقدرها وتجنب مقارنة حياتك مع الآخرين. كما قام بعض المرضى بالتركيز على الأشياء الجيدة التي نتجت عن تشخيصهم بالمرض مثل اختيارهم لمسار جديد في الحياة، ولقاء أنواع مختلفة من الناس والتفكير بشكل أكثر إبداعاً.</mutableString>
+                                        <string key="text">
+ينصح مرضى التصلب المتعدد الذين تعايشوا مع مرضهم لفترة من الوقت بأن أهم الأمور هي أن يعيش كل يوم كما هو، والبحث في حياتك عن أشياء تقدرها وتجنب مقارنة حياتك مع الآخرين. كما قام بعض المرضى بالتركيز على الأشياء الجيدة التي نتجت عن تشخيصهم بالمرض مثل اختيارهم لمسار جديد في الحياة، ولقاء أنواع مختلفة من الناس والتفكير بشكل أكثر إبداعاً.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4e-9J-KAA">
                                         <rect key="frame" x="0.0" y="345" width="320" height="107.5"/>
-                                        <string key="text">الحفاظ على نظرة إيجابية والحصول على معلومات جيدة يمكنه أن يحدث فرقاً كبيراً؛ تماماً مثلما يحدث عندما تكون مرنًا وتتبع أسلوب حل المشكلات.</string>
+                                        <string key="text">
+الحفاظ على نظرة إيجابية والحصول على معلومات جيدة يمكنه أن يحدث فرقاً كبيراً؛ تماماً مثلما يحدث عندما تكون مرنًا وتتبع أسلوب حل المشكلات.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7R-jY-7QJ">
                                         <rect key="frame" x="0.0" y="474.5" width="320" height="107.5"/>
-                                        <string key="text">يُصيب التصلب المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..</string>
+                                        <string key="text">يُصيب التصلب
+ المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmd-Aj-42k">
                                         <rect key="frame" x="0.0" y="604" width="320" height="107.5"/>
-                                        <string key="text">يُصيب التصلب المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..</string>
+                                        <string key="text">يُصيب التصلب
+ المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ht-GH-y1m">
                                         <rect key="frame" x="0.0" y="733.5" width="320" height="466.5"/>
-                                        <string key="text">يُصيب التصلب المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..</string>
+                                        <string key="text">يُصيب التصلب
+ المتعدد النساء بنسبة تصل إلى ثلاثة أضعاف نسبة الإصابة لدى الرجال. ويصيب هذا المرض أكثر من 2.3 مليون شخص حول العالم..
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -605,21 +637,25 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akp-qj-j0L">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                        <string key="text">يهتم العلاج الطبيعي بالحفاظ على الوظائف الحركيةللأشخاص والوصول لأقصى قدرات ممكنة. يستخدم</string>
+                                        <string key="text">يهتم العلاج الطبيعي
+ بالحفاظ على الوظائف الحركية
+للأشخاص والوصول لأقصى قدرات ممكنة. يستخدم</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mx8-w7-CAA">
                                         <rect key="frame" x="0.0" y="108" width="320" height="150.5"/>
-                                        <string key="text"> الأساليب البدنية لتعزيز واستعادة و الحفاظ على السلامة البدنية والعقلية و الاجتماعية التي تأثرت نتيجة للإصابة، المرض، العجز أو التقدم في السن. يمكن ان يساعد أيضًا في تقليل خطر التعرض لمزيد من المرض او الإصابة.</string>
+                                        <string key="text">
+ الأساليب البدنية لتعزيز واستعادة و الحفاظ على السلامة البدنية والعقلية و الاجتماعية التي تأثرت نتيجة للإصابة، المرض، العجز أو التقدم في السن. يمكن ان يساعد أيضًا في تقليل خطر التعرض لمزيد من المرض او الإصابة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRB-Zb-zrz">
                                         <rect key="frame" x="0.0" y="280.5" width="320" height="215"/>
-                                        <mutableString key="text">قيمة العلاج الطبيعي في التصلب المتعدد معترف بها الآن على نطاق واسع. حيث تظهر أهميته في المساعدة على تعزيز النشاط و التمرين لمرضى التصلب المتعدد لمساعدتك على استئناف او الحفاظ على حياه نشيطة غير معتمد على أحد. يمكن ان تكون له أهمية في كثير من اعراض التصلب العصبي المتعدد و مفيد خاصة لحل مشاكل التيبس، التوازن و التشنج.</mutableString>
+                                        <string key="text">
+قيمة العلاج الطبيعي في التصلب المتعدد معترف بها الآن على نطاق واسع. حيث تظهر أهميته في المساعدة على تعزيز النشاط و التمرين لمرضى التصلب المتعدد لمساعدتك على استئناف او الحفاظ على حياه نشيطة غير معتمد على أحد. يمكن ان تكون له أهمية في كثير من اعراض التصلب العصبي المتعدد و مفيد خاصة لحل مشاكل التيبس، التوازن و التشنج.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -639,14 +675,16 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cro-ik-Diw">
                                         <rect key="frame" x="0.0" y="723" width="320" height="347.5"/>
-                                        <string key="text">تقديم تمارين مخصصه لتقوية أجزاء معينة من الجسم.التعليم والنصيحة -مثلا وضعية الجسم، الطريقة الصحيحة لرفع و حمل الأشياء، و المستويات المناسبة من النشاط البدني لتحسين الصحة العامة و الحركة.</string>
+                                        <string key="text">تقديم تمارين مخصصه لتقوية أجزاء معينة من الجسم.
+التعليم والنصيحة -مثلا وضعية الجسم، الطريقة الصحيحة لرفع و حمل الأشياء، و المستويات المناسبة من النشاط البدني لتحسين الصحة العامة و الحركة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vG-O2-8KW">
                                         <rect key="frame" x="0.0" y="1092.5" width="320" height="107.5"/>
-                                        <string key="text">العلاج اليدوي مثل المساج أو تدليك أجزاء معينة من الجسم لتخفيف الألم أو التيبس.المعالجة الكهربائية- متضمنة الموجات فوق الصوتية، العلاج بالحرارة أو بالبرودة و التحفيز الكهربائي للعصب عبر الجلد </string>
+                                        <string key="text">العلاج اليدوي مثل المساج أو تدليك أجزاء معينة من الجسم لتخفيف الألم أو التيبس.
+المعالجة الكهربائية- متضمنة الموجات فوق الصوتية، العلاج بالحرارة أو بالبرودة و التحفيز الكهربائي للعصب عبر الجلد </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -681,14 +719,16 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIY-vd-lAI">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="150.5"/>
-                                        <string key="text">يقوم المعالج الوظيفيبمساعدة مرضى التصلب المتعدد بطرق متعددة. الهدف الرئيسي للعلاج الوظيفي هو مساعدة المرضى في الاستمرار في عيش حياه كاملة قدر الإمكان و تقديم الدعم العملي للتغلب على المصاعب التي قد تواجههم في أنشطة حياتهم اليومية.</string>
+                                        <string key="text">يقوم المعالج الوظيفي
+بمساعدة مرضى التصلب المتعدد بطرق متعددة. الهدف الرئيسي للعلاج الوظيفي هو مساعدة المرضى في الاستمرار في عيش حياه كاملة قدر الإمكان و تقديم الدعم العملي للتغلب على المصاعب التي قد تواجههم في أنشطة حياتهم اليومية.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C7-O9-SnX">
                                         <rect key="frame" x="0.0" y="172.5" width="320" height="193.5"/>
-                                        <mutableString key="text">يأخذ المعالج الوظيفي اتجاه "طريقة الإنسان المتكامل" للصحة العقلية و البدنية و العافية، و فيما يتعلق بمعنى "الوظيفة" هي الرعاية الذاتية اليومية ،الحياه العملية و نشاطات أوقات الفراغفي أغلب الأحيان يقوم المعالج الوظيفي بزيارتك في المنزل أو مكان العمل  لإعطاء اقتراحات بسيطة لتغيرات في اسلوب الحياة، او اقتراح أجهزه مفيدة و وسائل للتكيف. </mutableString>
+                                        <string key="text">يأخذ المعالج الوظيفي اتجاه "طريقة الإنسان المتكامل" للصحة العقلية و البدنية و العافية، و فيما يتعلق بمعنى "الوظيفة" هي الرعاية الذاتية اليومية ،الحياه العملية و نشاطات أوقات الفراغ
+في أغلب الأحيان يقوم المعالج الوظيفي بزيارتك في المنزل أو مكان العمل  لإعطاء اقتراحات بسيطة لتغيرات في اسلوب الحياة، او اقتراح أجهزه مفيدة و وسائل للتكيف. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -730,7 +770,9 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbZ-B4-Brn">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                        <string key="text">قد وجد أن التفاعل والاشتراكمع الاخرين في الأنشطةالترفيهية يمكن أن يحسن الصحة العقلية و البدنية للأشخاص المصابين بالتصلب المتعدد.</string>
+                                        <string key="text">قد وجد أن التفاعل والاشتراك
+مع الاخرين في الأنشطة
+الترفيهية يمكن أن يحسن الصحة العقلية و البدنية للأشخاص المصابين بالتصلب المتعدد.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -783,7 +825,9 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpr-ao-e22">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="150.5"/>
-                                        <string key="text">أظهرت الأبحاث فائدةالفنون العلاجية (العلاج بالفنالعلاج بالرقص والحركة، و العلاج بالموسيقى) في معرفة بعض الاحتياجات الفسيولوجية والنفسية والإدراكية والاجتماعية والروحية للمرضى الذين يعانون من الأمراض المزمنة المتنوعة.</string>
+                                        <string key="text">أظهرت الأبحاث فائدة
+الفنون العلاجية (العلاج بالفن
+العلاج بالرقص والحركة، و العلاج بالموسيقى) في معرفة بعض الاحتياجات الفسيولوجية والنفسية والإدراكية والاجتماعية والروحية للمرضى الذين يعانون من الأمراض المزمنة المتنوعة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -919,14 +963,17 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euD-mh-BEZ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="258"/>
-                                        <mutableString key="text">بالإضافة إلى الأعراض الجسدية، يؤدي التصلب المتعدد إلى عواقب عاطفية. في البداية يكون من الصعب التأقلم مع تشخيص مرض لا يمكن التنبؤ به ولديه دورة متقلبة ويحمل خطر التقدم مع مرور الوقت إلى مستوى معين من الإعاقة الجسدية. يضيف نقص المعرفة بالمرض إلى القلق الذي يعاني منه الأشخاص الذين تم تشخيصهم حديثًا. بالإضافة إلى هذه التفاعلات العاطفية للمرض ، يمكن أن تؤدي إزالة طبقة الميالين وتلف الألياف العصبية في الدماغ إلى تغيرات عاطفية.</mutableString>
+                                        <string key="text">بالإضافة إلى الأعراض
+ الجسدية، يؤدي التصلب
+ المتعدد إلى عواقب عاطفية. في البداية يكون من الصعب التأقلم مع تشخيص مرض لا يمكن التنبؤ به ولديه دورة متقلبة ويحمل خطر التقدم مع مرور الوقت إلى مستوى معين من الإعاقة الجسدية. يضيف نقص المعرفة بالمرض إلى القلق الذي يعاني منه الأشخاص الذين تم تشخيصهم حديثًا. بالإضافة إلى هذه التفاعلات العاطفية للمرض ، يمكن أن تؤدي إزالة طبقة الميالين وتلف الألياف العصبية في الدماغ إلى تغيرات عاطفية.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6OG-ah-na6">
                                         <rect key="frame" x="0.0" y="280" width="320" height="86"/>
-                                        <string key="text">عند مواجهة مرض التصلبالمتعدد غالبًا ما يتجه المرضى للتركيز على حالتهم الجسدية أولا وإهمال صحتهم النفسية والتي تعد مكون أساسي للصحة العامة</string>
+                                        <string key="text">عند مواجهة مرض التصلب
+المتعدد غالبًا ما يتجه المرضى للتركيز على حالتهم الجسدية أولا وإهمال صحتهم النفسية والتي تعد مكون أساسي للصحة العامة</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -975,7 +1022,10 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVa-IJ-xea">
                                         <rect key="frame" x="0.0" y="1114" width="320" height="86"/>
-                                        <string key="text"> للحصول على المساعدة، اسأل       طبيب الأمراض العصبية أو الطبيب      العام ليقم بتحويلك لطبيب أمراض         نفسية.</string>
+                                        <string key="text"> للحصول على المساعدة، اسأل  
+     طبيب الأمراض العصبية أو الطبيب 
+     العام ليقم بتحويلك لطبيب أمراض    
+     نفسية.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1010,14 +1060,16 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yao-Rf-gw1">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
-                                        <string key="text">يُعتقَد ان الشعور بالاسترخاءو قلة الضغط يجعل التعامل مع أعراض التصلب المتعدد أسهل، و أظهرت الدراسات ان التأمل يمكن أن يساعد في تحسين جودة الحياة, والضغط العصبي ، والاكتئاب و أنواع مختلفة من الألم.</string>
+                                        <string key="text">يُعتقَد ان الشعور بالاسترخاء
+و قلة الضغط يجعل التعامل مع أعراض التصلب المتعدد أسهل، و أظهرت الدراسات ان التأمل يمكن أن يساعد في تحسين جودة الحياة, والضغط العصبي ، والاكتئاب و أنواع مختلفة من الألم.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6n4-ti-3hr">
                                         <rect key="frame" x="0.0" y="151" width="320" height="64.5"/>
-                                        <string key="text">يوصف التأمل عموماً كأسلوب عقلي يتطلب التركيز الداخلي و التركيز الذهني.</string>
+                                        <string key="text">
+يوصف التأمل عموماً كأسلوب عقلي يتطلب التركيز الداخلي و التركيز الذهني.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1079,7 +1131,9 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fX-UU-oZ8">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                        <string key="text">مشاكل الذاكرة هي اكثر التحديات المعرفية التي يتم الابلاغ عنها بشكل متكرر من قِبل الأشخاص المصابين بالتصلب المتعدد</string>
+                                        <string key="text">مشاكل الذاكرة هي اكثر
+ التحديات المعرفية التي
+ يتم الابلاغ عنها بشكل متكرر من قِبل الأشخاص المصابين بالتصلب المتعدد</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1092,63 +1146,83 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqr-iC-M92">
                                         <rect key="frame" x="0.0" y="173" width="320" height="107.5"/>
-                                        <string key="text">الحصول على منظم جيد (ورق-قائم على التكنولوجيا) و تعلم كيفية استخدامه باستمرار للمساعدة في تخزين و استرجاع المعلومات، التذكير، المواعيد و المنبهات.</string>
+                                        <string key="text">الحصول على منظم جيد (ورق-قائم على التكنولوجيا) و تعلم كيفية 
+استخدامه باستمرار للمساعدة في تخزين و استرجاع المعلومات، 
+التذكير، المواعيد و المنبهات.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khC-w4-0Ly">
                                         <rect key="frame" x="0.0" y="302.5" width="320" height="107.5"/>
-                                        <string key="text">استخدم منظمك الورقي او الكمبيوتر/الحاسب اللوحي/الهاتف الذكي لاستبدال قصاصات الورق الصغيرة و الملاحظات التي يمكن ان تضيع او تفقد في غير مكانها.</string>
+                                        <string key="text">استخدم منظمك الورقي او الكمبيوتر/الحاسب اللوحي/الهاتف 
+الذكي لاستبدال قصاصات الورق الصغيرة و الملاحظات التي يمكن ان 
+تضيع او تفقد في غير مكانها.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRv-FH-plw">
                                         <rect key="frame" x="0.0" y="432" width="320" height="43"/>
-                                        <string key="text">عندما تحاول ان تتعلم شيء جديد ،اعط نفسك وقتاً اضافياً للتمرين.</string>
+                                        <string key="text">عندما تحاول ان تتعلم شيء جديد 
+،اعط نفسك وقتاً اضافياً للتمرين.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-Q8-bRD">
                                         <rect key="frame" x="0.0" y="497" width="320" height="107.5"/>
-                                        <string key="text">اظهرت الدراسات ان التمرين الاضافي للأشخاص المصابة بالتصلب اللويحي المتعدد يمكن ان  يحسن قدرتهم على استدعاء المعلومات في وقت لاحق.</string>
+                                        <string key="text">اظهرت الدراسات ان التمرين 
+الاضافي للأشخاص المصابة 
+بالتصلب اللويحي المتعدد يمكن ان  
+يحسن قدرتهم على استدعاء 
+المعلومات في وقت لاحق.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFL-26-y0H">
                                         <rect key="frame" x="0.0" y="626.5" width="320" height="43"/>
-                                        <string key="text">اعداد تقويم للعائلة لتتبع انشطة  الجميع.</string>
+                                        <string key="text">اعداد تقويم للعائلة لتتبع انشطة  
+الجميع.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xma-WV-4XV">
                                         <rect key="frame" x="0.0" y="691.5" width="320" height="107.5"/>
-                                        <string key="text">تخصيص مكان معين لتخزين  الاشياء المستخدمة بشكل متكرر مثل مفاتيح السيارة، على سبيل  المثال وضع المقص دائماً في الدرج العلوى للمكتب.</string>
+                                        <string key="text">تخصيص مكان معين لتخزين 
+ الاشياء المستخدمة بشكل متكرر 
+مثل مفاتيح السيارة، على سبيل  
+المثال وضع المقص دائماً في
+ الدرج العلوى للمكتب.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Bo-KX-5Fl">
                                         <rect key="frame" x="0.0" y="821" width="320" height="107.5"/>
-                                        <string key="text">اعمل على تحسين تركيزك. تحسين تركيزك يمكن ان يقوي قدرتك على التذكر. تدرب على  التركيز على شيء واحد في وقت واحد  عندما تقرأ، أو تشاهد التلفزيون او ترى فيلما.</string>
+                                        <string key="text">اعمل على تحسين تركيزك. تحسين تركيزك يمكن ان يقوي قدرتك 
+على التذكر. تدرب على  التركيز على شيء واحد في وقت واحد  
+عندما تقرأ، أو تشاهد التلفزيون او ترى فيلما.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byh-Nz-Ygb">
                                         <rect key="frame" x="0.0" y="950.5" width="320" height="64.5"/>
-                                        <string key="text">قد تحتاج الى النظر في بعض الخيارات التعويضية للتغييرات المعرفية:</string>
+                                        <string key="text">قد تحتاج الى النظر في بعض الخيارات التعويضية
+ للتغييرات المعرفية:</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5b-xX-9iX">
                                         <rect key="frame" x="0.0" y="1037" width="320" height="172"/>
-                                        <string key="text">قم بالتخطيط بحيث تضع المهام الذهنية الأكثر تحدياً بالنسبة لك في  افضل وقت لك من اليوم. لتقليل الإجهاد الذهني الذى يمكن ان يحدث خلال الانشطة الطويلة التي تتطلب مجهود مستمر او تركيز , كما يجب أن تضع جدول لفترات الراحة المتكررة.</string>
+                                        <string key="text">قم بالتخطيط بحيث تضع المهام الذهنية الأكثر تحدياً بالنسبة لك في  
+افضل وقت لك من اليوم. لتقليل الإجهاد الذهني الذى يمكن ان 
+يحدث خلال الانشطة الطويلة التي تتطلب مجهود مستمر او تركيز , 
+كما يجب أن تضع جدول لفترات الراحة المتكررة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1161,35 +1235,40 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gI-Ku-2su">
                                         <rect key="frame" x="0.0" y="1274.5" width="320" height="86"/>
-                                        <string key="text">عندما تقابل شخص جديد اكتب اسمه بأسرع ما يمكن. في وقت لاحق ضع ملحوظة في دفترك حول الأشياء الاكثر لفتا للنظر حول هذا الشخص.</string>
+                                        <string key="text">عندما تقابل شخص جديد اكتب اسمه بأسرع ما يمكن. في وقت لاحق ضع ملحوظة في دفترك حول الأشياء الاكثر لفتا للنظر حول هذا 
+الشخص.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN3-66-DEd">
                                         <rect key="frame" x="0.0" y="1382.5" width="320" height="86"/>
-                                        <string key="text">تأكد من حصولك على قسط كاف من النوم و ان نومك لا ينقطع بدون مبرر برحلات الى الحمام ،شد عضلي او مشاكل اخرى.</string>
+                                        <string key="text">تأكد من حصولك على قسط كاف من النوم و ان نومك لا ينقطع بدون 
+مبرر برحلات الى الحمام ،شد عضلي او مشاكل اخرى.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuU-ZL-8iX">
                                         <rect key="frame" x="0.0" y="1490.5" width="320" height="64.5"/>
-                                        <string key="text">تحدث مع طبيب، ممرضة أو عالم التغذية عن عاداتك الغذائية للتأكد من حصولك على تغذية جيدة.</string>
+                                        <string key="text">تحدث مع طبيب، ممرضة أو عالم التغذية عن عاداتك الغذائية للتأكد 
+من حصولك على تغذية جيدة.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQJ-RE-n2C">
                                         <rect key="frame" x="0.0" y="1577" width="320" height="86"/>
-                                        <string key="text">بعد التشاور مع طبيبك ، اتبع برنامج تمرين ثابت للمساعدة في الحفاظ على لياقتك البدنية ، العقلية و العاطفية.</string>
+                                        <string key="text">بعد التشاور مع طبيبك ، اتبع برنامج تمرين ثابت للمساعدة في 
+الحفاظ على لياقتك البدنية ، العقلية و العاطفية.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19g-V8-c9n">
                                         <rect key="frame" x="0.0" y="1685" width="320" height="1515"/>
-                                        <string key="text">استمر في تحدى عقلك بالألغاز، القراءة، المناقشات المحفزةو الالعاب الالكترونية.</string>
+                                        <string key="text">استمر في تحدى عقلك بالألغاز، القراءة، المناقشات المحفزة
+و الالعاب الالكترونية.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1223,24 +1302,28 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="4200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="250" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRs-57-dGj">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="595"/>
-                                        <string key="text">فیما یلي بعض النصائحالعامة للتعایش بشكل جید مع المرض:</string>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="349"/>
+                                        <string key="text">فیما یلي بعض النصائح
+العامة للتعایش بشكل جید مع المرض:</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="0.91764705879999997" green="0.50588235290000005" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hHN-Qo-vf8">
-                                        <rect key="frame" x="0.0" y="617" width="320" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="371" width="320" height="148"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfF-ND-X94">
-                                                <rect key="frame" x="111" y="1" width="208" height="107.5"/>
-                                                <string key="text"> اعتني بنفسك. اتبع نظام غذائي صحي، قم بممارسة الرياضة واحصل على قسط كاف من الراحة</string>
+                                                <rect key="frame" x="111" y="1" width="208" height="146"/>
+                                                <string key="text"> اعتني بنفسك. اتبع نظام
+ غذائي صحي، قم
+ بممارسة الرياضة 
+واحصل على قسط كاف من الراحة</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_jumping_people" translatesAutoresizingMaskIntoConstraints="NO" id="096-Ta-wgp">
-                                                <rect key="frame" x="1" y="1" width="109" height="107.5"/>
+                                                <rect key="frame" x="1" y="1" width="109" height="146"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -1255,11 +1338,14 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="neL-RS-LbM">
-                                        <rect key="frame" x="0.0" y="748.5" width="320" height="238.5"/>
+                                        <rect key="frame" x="0.0" y="541" width="320" height="238.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucV-1n-IiX">
                                                 <rect key="frame" x="111" y="1" width="208" height="236.5"/>
-                                                <string key="text">تحكّم في حالتك العاطفية. ابحث عن الأشخاص الذين يمكنك التحدث معھم وإخبارهم عن مشاعرك، والذين سيقدمون لك الدعم اللازم.اطلب المساعدة من المتخصصين إذا كنت تشعر بالحزن أو الیأس بشكل مستمر أو تشعر بالتوتر بشكل غیر مریح.</string>
+                                                <string key="text">تحكّم في حالتك العاطفية. ابحث عن الأشخاص الذين يمكنك التحدث معھم وإخبارهم عن مشاعرك، والذين سيقدمون لك الدعم اللازم.
+اطلب المساعدة من المتخصصين إذا كنت تشعر بالحزن أو الیأس
+ بشكل مستمر أو تشعر
+ بالتوتر بشكل غیر مریح.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1280,17 +1366,20 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QLa-ZA-RXa">
-                                        <rect key="frame" x="0.0" y="1009" width="320" height="131"/>
+                                        <rect key="frame" x="0.0" y="801.5" width="320" height="142"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sv-hW-gFa">
-                                                <rect key="frame" x="111" y="1" width="208" height="129"/>
-                                                <string key="text">حاول أن تتعامل مع طبيبك كشريك في فریق التحكّم بالمرض. تعرّف على الخيارات المتاحة للعلاج وقم بمناقشتها مع طبيبك.</string>
+                                                <rect key="frame" x="111" y="1" width="208" height="140"/>
+                                                <string key="text">حاول أن تتعامل مع طبيبك كشريك في فریق التحكّم بالمرض.
+ تعرّف على الخيارات
+ المتاحة للعلاج وقم
+ بمناقشتها مع طبيبك.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_chating_people" translatesAutoresizingMaskIntoConstraints="NO" id="jCs-qe-jWn">
-                                                <rect key="frame" x="1" y="1" width="109" height="129"/>
+                                                <rect key="frame" x="1" y="1" width="109" height="140"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -1305,29 +1394,32 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="250" ambiguous="YES" text="فیما یلي بعض النصائح العامة للتعایش بشكل جید مع المرض:" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEx-RP-eNi">
-                                        <rect key="frame" x="0.0" y="1162" width="320" height="53"/>
+                                        <rect key="frame" x="0.0" y="965.5" width="320" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="0.91764705879999997" green="0.50588235290000005" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="تواصل مع مرضى آخرين عندما تشعر بالراحة بفعل ذلك. تبادل النصائح والمعلومات والمشاعر حول التعامل مع المرض." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATv-h5-AOj">
-                                        <rect key="frame" x="0.0" y="1237" width="320" height="64.5"/>
+                                        <rect key="frame" x="0.0" y="1040.5" width="320" height="64.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qrq-Gg-1DE">
-                                        <rect key="frame" x="0.0" y="1323.5" width="320" height="96"/>
+                                        <rect key="frame" x="0.0" y="1127" width="320" height="190"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1x-24-BuN">
-                                                <rect key="frame" x="111" y="1" width="208" height="94"/>
-                                                <string key="text">• قم بدراسة أولوياتك. حاول إيجاد معنى لمرض التصلب المتعدد من وجھة نظرك أنت.</string>
+                                                <rect key="frame" x="111" y="1" width="208" height="188"/>
+                                                <string key="text">• قم بدراسة أولوياتك.
+ حاول إيجاد معنى لمرض
+ التصلب المتعدد من
+ وجھة نظرك أنت.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_talking_people" translatesAutoresizingMaskIntoConstraints="NO" id="BMV-tr-eyA">
-                                                <rect key="frame" x="1" y="1" width="109" height="94"/>
+                                                <rect key="frame" x="1" y="1" width="109" height="188"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -1342,24 +1434,26 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSK-sI-5et">
-                                        <rect key="frame" x="0.0" y="1441.5" width="320" height="107.5"/>
+                                        <rect key="frame" x="0.0" y="1339" width="320" height="107.5"/>
                                         <string key="text">إصابتك بالتصلب المتعدد یضعك في حیرة بشأن المستقبل. ففي مرحلة ما، تحتاج إلى دراسة خططك المالیة، والتأمينات الطبیة، واحتياجات بیتك وغیرھا من الأمور الھامة، وبناء </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w2a-db-OnV">
-                                        <rect key="frame" x="0.0" y="1571" width="320" height="109.5"/>
+                                        <rect key="frame" x="0.0" y="1468.5" width="320" height="212"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkt-Bx-kPh">
-                                                <rect key="frame" x="111" y="1" width="208" height="107.5"/>
-                                                <string key="text">شبكة من العلاقات مع مستشارين یمكنھم مساعدتك أنت وعائلتك في التخطيط لحياتكم على المدى الطويل. </string>
+                                                <rect key="frame" x="111" y="1" width="208" height="210"/>
+                                                <string key="text">شبكة من العلاقات مع مستشارين یمكنھم مساعدتك أنت وعائلتك
+ في التخطيط لحياتكم
+ على المدى الطويل. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_notes" translatesAutoresizingMaskIntoConstraints="NO" id="9xQ-qR-Jft">
-                                                <rect key="frame" x="1" y="1" width="109" height="107.5"/>
+                                                <rect key="frame" x="1" y="1" width="109" height="210"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -1387,14 +1481,17 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wy-Cf-t8K">
                                         <rect key="frame" x="0.0" y="1816" width="320" height="64.5"/>
-                                        <string key="text">احتفظ برقم طبيبك او الممرض والبريد الإلكتروني ورقمه خارج ساعات العمل إذا كنت مسافر خارج بلدك.</string>
+                                        <string key="text">احتفظ برقم طبيبك او الممرض والبريد الإلكتروني ورقمه خارج 
+ساعات العمل إذا كنت مسافر خارج بلدك.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-ug-JMd">
                                         <rect key="frame" x="0.0" y="1902.5" width="320" height="129"/>
-                                        <string key="text">تذكر أن هناك فرق بين تفاقم الأعراض الحقيقي والخاطئ. فتفاقم الأعراض الحقيقي هو تدهور الأعراض القديمة أو ظهور أعراض جديدة تستمر 24 ساعة على الأقل. وهذا أمر هام حيث أن الضغط العصبي والحرارة والإجهاد </string>
+                                        <string key="text">تذكر أن هناك فرق بين تفاقم الأعراض الحقيقي والخاطئ. فتفاقم 
+الأعراض الحقيقي هو تدهور الأعراض القديمة أو ظهور أعراض 
+جديدة تستمر 24 ساعة على الأقل. وهذا أمر هام حيث أن الضغط العصبي والحرارة والإجهاد </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1407,14 +1504,17 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aX-7x-xez">
                                         <rect key="frame" x="0.0" y="2140" width="320" height="107.5"/>
-                                        <string key="text">تمالك نفسك. أنت تعرف جسمك أكثر من أي شخص آخر. إذا علمت أن الجري خارجا سيؤذي جسدك، اختر الأنشطة بحكمة لتعزيز فترة التعافي.</string>
+                                        <string key="text">تمالك نفسك. أنت تعرف جسمك أكثر من أي شخص آخر. إذا علمت أن 
+الجري خارجا سيؤذي جسدك، اختر الأنشطة بحكمة لتعزيز فترة 
+التعافي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SM0-ft-DTC">
                                         <rect key="frame" x="0.0" y="2269.5" width="320" height="64.5"/>
-                                        <string key="text">لديك العديد من الأدوات تحت تصرفك لتيسير السفر، استخدمهم  (الكراسي المتحركة، العصى، الدراجات).</string>
+                                        <string key="text">لديك العديد من الأدوات تحت تصرفك لتيسير السفر، استخدمهم  
+(الكراسي المتحركة، العصى، الدراجات).</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1531,7 +1631,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEw-FA-1a0">
                                         <rect key="frame" x="0.0" y="3465" width="320" height="64.5"/>
-                                        <string key="text">- اشغل نفسك بالأنشطة البدنیة قدر الإمكان خلال النھار، ولكن اھدألبعض الوقت قبل النوم</string>
+                                        <string key="text">- اشغل نفسك بالأنشطة البدنیة قدر الإمكان خلال النھار، ولكن اھدأ
+لبعض الوقت قبل النوم</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1550,7 +1651,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR4-CS-Ilb">
                                         <rect key="frame" x="0.0" y="3703" width="320" height="86"/>
-                                        <string key="text">- تجنب التوتر والضغط العصبي أو تناول المشروبات أو الأطعمةالمنشطة (مثل الكافیین والشوكولاته) في وقت متأخر من الظھر وفي المساء</string>
+                                        <string key="text">- تجنب التوتر والضغط العصبي أو تناول المشروبات أو الأطعمة
+المنشطة (مثل الكافیین والشوكولاته) في وقت متأخر من الظھر وفي المساء</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1582,7 +1684,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-1G-oax">
                                         <rect key="frame" x="0.0" y="4135.5" width="320" height="64.5"/>
-                                        <string key="text">- تجنب الحرارة الشدیدة، على الرغم من أن بعض الأشخاص یجدون أنبرودة أقدامھم قد یزعج النوم أیضا</string>
+                                        <string key="text">- تجنب الحرارة الشدیدة، على الرغم من أن بعض الأشخاص یجدون أن
+برودة أقدامھم قد یزعج النوم أیضا</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1673,6 +1776,159 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvD-Ba-BFf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7785" y="2234"/>
+        </scene>
+        <!--Test CollectionV Iew View Controller-->
+        <scene sceneID="G97-lb-G9x">
+            <objects>
+                <viewController storyboardIdentifier="testCollectionView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NbB-Zf-lK4" customClass="TestCollectionVIewViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="94U-Be-SdN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0f8-2N-JfA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.msif.org/" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCl-te-TaE">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://www.nationalmssociety.org/What-is-MS/Types-of-MS." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALA-V7-gF8">
+                                        <rect key="frame" x="0.0" y="43.5" width="320" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.mssociety.org. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXj-jL-h7y">
+                                        <rect key="frame" x="0.0" y="108.5" width="320" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.medicalnewstoday.com/articles/37556.php" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQb-l7-cH3">
+                                        <rect key="frame" x="0.0" y="152" width="320" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.mstrust.org.uk/" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vA8-Zm-Fz8">
+                                        <rect key="frame" x="0.0" y="217" width="320" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://www.nhs.uk/conditions/multiple-sclerosis/" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1Z-Y9-afQ">
+                                        <rect key="frame" x="0.0" y="260.5" width="320" height="43"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8PD-9P-2a8">
+                                        <rect key="frame" x="0.0" y="325.5" width="320" height="300"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="wdt-9N-Duq"/>
+                                        </constraints>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HpF-Cm-arC">
+                                            <size key="itemSize" width="300" height="300"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="firstCell" id="n2j-Dg-C4g">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Ib-C6-8Ki">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="114"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label 1 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HW-Jq-tdT">
+                                                            <rect key="frame" x="123.5" y="47" width="53" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="5HW-Jq-tdT" firstAttribute="centerX" secondItem="0Ib-C6-8Ki" secondAttribute="centerX" id="Ghx-Nt-BCg"/>
+                                                        <constraint firstItem="5HW-Jq-tdT" firstAttribute="centerY" secondItem="0Ib-C6-8Ki" secondAttribute="centerY" id="SWO-lL-ZGn"/>
+                                                    </constraints>
+                                                </collectionViewCellContentView>
+                                                <size key="customSize" width="300" height="114"/>
+                                            </collectionViewCell>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell2" id="Zk1-i2-0YF">
+                                                <rect key="frame" x="25" y="124" width="250" height="93"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BN5-BM-Ora">
+                                                    <rect key="frame" x="0.0" y="0.0" width="250" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnD-3v-t8H">
+                                                            <rect key="frame" x="97" y="36.5" width="56" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="OnD-3v-t8H" firstAttribute="centerX" secondItem="BN5-BM-Ora" secondAttribute="centerX" id="Iws-PP-dWs"/>
+                                                        <constraint firstItem="OnD-3v-t8H" firstAttribute="centerY" secondItem="BN5-BM-Ora" secondAttribute="centerY" id="u16-B8-cSO"/>
+                                                    </constraints>
+                                                </collectionViewCellContentView>
+                                                <size key="customSize" width="250" height="93"/>
+                                            </collectionViewCell>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell3" id="iEP-aA-vnA">
+                                                <rect key="frame" x="44" y="227" width="212" height="51"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="t3N-hF-pKY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="212" height="51"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Js-iA-Y3t">
+                                                            <rect key="frame" x="86" y="5.5" width="40" height="40"/>
+                                                            <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="40" id="7Sk-CP-OrJ"/>
+                                                                <constraint firstAttribute="width" constant="40" id="Xzv-8q-Jrq"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="5Js-iA-Y3t" firstAttribute="centerY" secondItem="t3N-hF-pKY" secondAttribute="centerY" id="3Py-zE-pBc"/>
+                                                        <constraint firstItem="5Js-iA-Y3t" firstAttribute="centerX" secondItem="t3N-hF-pKY" secondAttribute="centerX" id="ImN-9n-ppC"/>
+                                                    </constraints>
+                                                </collectionViewCellContentView>
+                                                <size key="customSize" width="212" height="51"/>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="http://www.activemsers.org." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOA-Ur-1fI">
+                                        <rect key="frame" x="0.0" y="647.5" width="320" height="552.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Wy5-w4-kEn" firstAttribute="trailing" secondItem="0f8-2N-JfA" secondAttribute="trailing" id="3Vs-Dg-sjl"/>
+                            <constraint firstItem="Wy5-w4-kEn" firstAttribute="bottom" secondItem="0f8-2N-JfA" secondAttribute="bottom" id="XwI-Ry-hU6"/>
+                            <constraint firstItem="0f8-2N-JfA" firstAttribute="top" secondItem="Wy5-w4-kEn" secondAttribute="top" id="m1Z-y7-I4x"/>
+                            <constraint firstItem="0f8-2N-JfA" firstAttribute="leading" secondItem="Wy5-w4-kEn" secondAttribute="leading" id="tFc-4R-sgq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wy5-w4-kEn"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="1200"/>
+                    <connections>
+                        <outlet property="collectionViewTest" destination="8PD-9P-2a8" id="TYX-PZ-d6o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gDj-dI-Lie" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8625" y="2224.6478873239439"/>
         </scene>
     </scenes>
     <resources>
