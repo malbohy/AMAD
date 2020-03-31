@@ -18,4 +18,17 @@ struct OpenTemplateScreen {
         parent.present(vc, animated: true, completion: nil)
     }
     
+    
+    
+    func getAsVC(from storyBoardName:String, ID vcID:String )-> UIViewController{
+        let vc = UIViewController.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView") as! ViewController
+        let childVC = UIViewController.getViewController(fromStoryBoardNamed: storyBoardName, withIdentifier: vcID)
+        vc.screenTitle = "title"
+        vc.childView = childVC
+        vc.modalPresentationStyle = .fullScreen
+        return vc
+//        parent.present(vc, animated: true, completion: nil)
+    }
+    
+    
 }

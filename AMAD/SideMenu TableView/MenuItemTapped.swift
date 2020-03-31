@@ -95,10 +95,13 @@ class MenuItemTapped {
                 OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "wbsites",title: "مواقع تهمك")
             break
             
-            case "الاخطاء الشائعه":
-                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "testCollectionView",title: "مواقع تهمك")
+            case "التنفس البطني":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "tanfos_botenty",title: "التنفس البطني")
             break
             
+            case "الرياضة العلاجية":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "ryada_3lagya",title: "تمرينات خاصة بالأطراف العليا")
+            break
             
             
             

@@ -27,24 +27,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         print("Secne delegt")
         
 //        self.window = UIWindow(frame: UIScreen.main.bounds)
-//        let rootVC = self.getViewController(fromStoryBoardNamed: "Auth", withIdentifier: "AuthChooser")
-        let rootVC = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "sideMenu")
+        let rootVC = self.getViewController(fromStoryBoardNamed: "Auth", withIdentifier: "AuthChooser")
+//        let rootVC = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "sideMenu")
         
-//        let rootNavigationCOntroller = UINavigationController()
+        
+//        let rootVC = OpenTemplateScreen().getAsVC(from: "ContentScreens", ID: "tanfos_botenty")
+        
+        let rootNavigationCOntroller = UINavigationController()
 //        rootNavigationCOntroller.navigationBar.isHidden = true
 //        rootNavigationCOntroller.navigationBar.backgroundColor = UIColor.green
         
-//        rootNavigationCOntroller.setViewControllers([rootVC], animated: true)
-//        rootNavigationCOntroller.navigationBar
+        rootNavigationCOntroller.setViewControllers([rootVC], animated: true)
+        rootNavigationCOntroller.navigationBar
         
-//        rootNavigationCOntroller.navigationBar.setBackgroundImage(UIImage(), for: .default) //UIImage.init(named: "transparent.png")
-//        rootNavigationCOntroller.navigationBar.shadowImage = UIImage()
-//        rootNavigationCOntroller.navigationBar.isTranslucent = true
-//        rootNavigationCOntroller.view.backgroundColor = .clear
+        rootNavigationCOntroller.navigationBar.setBackgroundImage(UIImage(), for: .default) //UIImage.init(named: "transparent.png")
+        rootNavigationCOntroller.navigationBar.shadowImage = UIImage()
+        rootNavigationCOntroller.navigationBar.isTranslucent = true
+        rootNavigationCOntroller.view.backgroundColor = .clear
         
         
-//        self.window?.rootViewController = rootNavigationCOntroller
-        self.window?.rootViewController = rootVC
+        self.window?.rootViewController = rootNavigationCOntroller
+//        self.window?.rootViewController = rootVC
 //        self.window?.makeKeyAndVisible()
         guard let _ = (scene as? UIWindowScene) else { return }
     }

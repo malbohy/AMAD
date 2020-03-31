@@ -45,6 +45,8 @@
 		C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E612426DECF00340B9F /* MenuHeaderTableViewCell.swift */; };
 		C8E05E642426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E632426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift */; };
 		C8F08D4E2430261F00FC18E1 /* TestCollectionVIewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F08D4D2430261F00FC18E1 /* TestCollectionVIewViewController.swift */; };
+		C8F08D502430289E00FC18E1 /* Tanafos_botenyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F08D4F2430289E00FC18E1 /* Tanafos_botenyViewController.swift */; };
+		C8F08D5224316A2700FC18E1 /* Rayada_3alagyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F08D5124316A2700FC18E1 /* Rayada_3alagyaViewController.swift */; };
 		D6CDFC874C472B37D2FC786D /* Pods_AMAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		C8E05E612426DECF00340B9F /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		C8E05E632426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBodyTableViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		C8F08D4D2430261F00FC18E1 /* TestCollectionVIewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVIewViewController.swift; sourceTree = "<group>"; };
+		C8F08D4F2430289E00FC18E1 /* Tanafos_botenyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tanafos_botenyViewController.swift; sourceTree = "<group>"; };
+		C8F08D5124316A2700FC18E1 /* Rayada_3alagyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayada_3alagyaViewController.swift; sourceTree = "<group>"; };
 		E43CABB374792AC7B8F5860D /* Pods-AMAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.release.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,6 +234,8 @@
 				C822542A24254C4B00749489 /* HomeViewController.swift */,
 				C8832248242B179F0090412C /* ContentScreens.storyboard */,
 				C8F08D4D2430261F00FC18E1 /* TestCollectionVIewViewController.swift */,
+				C8F08D4F2430289E00FC18E1 /* Tanafos_botenyViewController.swift */,
+				C8F08D5124316A2700FC18E1 /* Rayada_3alagyaViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -434,6 +440,7 @@
 			files = (
 				C81CAE1C242779C800965046 /* LoginViewController.swift in Sources */,
 				C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */,
+				C8F08D502430289E00FC18E1 /* Tanafos_botenyViewController.swift in Sources */,
 				C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */,
 				C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */,
 				C8F08D4E2430261F00FC18E1 /* TestCollectionVIewViewController.swift in Sources */,
@@ -457,6 +464,7 @@
 				C822543224258DA700749489 /* ScreensContent.swift in Sources */,
 				C8E05E642426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift in Sources */,
 				C870DFF824252B3100B84783 /* UIImage+Extenstions.swift in Sources */,
+				C8F08D5224316A2700FC18E1 /* Rayada_3alagyaViewController.swift in Sources */,
 				C8E05E5D2426C5C900340B9F /* SideMenuContent.swift in Sources */,
 				C81CAE1E24278E1900965046 /* SignUpViewController.swift in Sources */,
 				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,

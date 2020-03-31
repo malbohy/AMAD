@@ -53,7 +53,7 @@
                                                                 <rect key="frame" x="254.5" y="0.0" width="49.5" height="47"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ley-VT-6zG">
-                                                                        <rect key="frame" x="5" y="4.5" width="39.5" height="37.5"/>
+                                                                        <rect key="frame" x="12.5" y="11.5" width="24.5" height="23.5"/>
                                                                         <state key="normal" image="ic_menu"/>
                                                                         <connections>
                                                                             <action selector="openDUmmyScreen:" destination="8eP-YL-gvC" eventType="touchUpInside" id="hKF-jz-v4r"/>
@@ -61,9 +61,9 @@
                                                                     </button>
                                                                 </subviews>
                                                                 <constraints>
-                                                                    <constraint firstItem="Ley-VT-6zG" firstAttribute="height" secondItem="eKz-RQ-b3Z" secondAttribute="height" multiplier="0.8" id="32c-rX-03P"/>
+                                                                    <constraint firstItem="Ley-VT-6zG" firstAttribute="height" secondItem="eKz-RQ-b3Z" secondAttribute="height" multiplier="0.5" id="32c-rX-03P"/>
                                                                     <constraint firstItem="Ley-VT-6zG" firstAttribute="centerX" secondItem="eKz-RQ-b3Z" secondAttribute="centerX" id="CPd-AL-Xa8"/>
-                                                                    <constraint firstItem="Ley-VT-6zG" firstAttribute="width" secondItem="eKz-RQ-b3Z" secondAttribute="width" multiplier="0.8" id="a3i-hl-3zf"/>
+                                                                    <constraint firstItem="Ley-VT-6zG" firstAttribute="width" secondItem="eKz-RQ-b3Z" secondAttribute="width" multiplier="0.5" id="a3i-hl-3zf"/>
                                                                     <constraint firstItem="Ley-VT-6zG" firstAttribute="centerY" secondItem="eKz-RQ-b3Z" secondAttribute="centerY" id="oQK-4Q-NGe"/>
                                                                 </constraints>
                                                             </view>
