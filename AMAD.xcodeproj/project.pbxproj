@@ -37,6 +37,7 @@
 		C870E00024252B3100B84783 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFF424252B3100B84783 /* UINavigationController.swift */; };
 		C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8832246242B168F0090412C /* OpenTemplateScreen.swift */; };
 		C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8832248242B179F0090412C /* ContentScreens.storyboard */; };
+		C8875C54243CBBEA00F8139B /* A3rad_TasalobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */; };
 		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
 		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
 		C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */; };
@@ -85,6 +86,7 @@
 		C870DFF424252B3100B84783 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		C8832246242B168F0090412C /* OpenTemplateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTemplateScreen.swift; sourceTree = "<group>"; };
 		C8832248242B179F0090412C /* ContentScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentScreens.storyboard; sourceTree = "<group>"; };
+		C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3rad_TasalobViewController.swift; sourceTree = "<group>"; };
 		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				C8F08D4D2430261F00FC18E1 /* TestCollectionVIewViewController.swift */,
 				C8F08D4F2430289E00FC18E1 /* Tanafos_botenyViewController.swift */,
 				C8F08D5124316A2700FC18E1 /* Rayada_3alagyaViewController.swift */,
+				C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				C8F08D5224316A2700FC18E1 /* Rayada_3alagyaViewController.swift in Sources */,
 				C8E05E5D2426C5C900340B9F /* SideMenuContent.swift in Sources */,
 				C81CAE1E24278E1900965046 /* SignUpViewController.swift in Sources */,
+				C8875C54243CBBEA00F8139B /* A3rad_TasalobViewController.swift in Sources */,
 				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,
 				C870DFFB24252B3100B84783 /* TableView_Extension.swift in Sources */,
 				C81CAE0A2426E8CB00965046 /* Labels.swift in Sources */,

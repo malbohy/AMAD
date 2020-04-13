@@ -26,7 +26,7 @@ class Rayada_3alagyaViewController: UIViewController,UICollectionViewDelegate, U
         
         
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-              return 18
+              return 28
           }
           
           func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -50,6 +50,16 @@ class Rayada_3alagyaViewController: UIViewController,UICollectionViewDelegate, U
                 case 15: return getCell(with: "cell16", for: indexPath)
                 case 16: return getCell(with: "cell17", for: indexPath)
                 case 17: return getCell(with: "cell18", for: indexPath)
+                case 18: return getCell(with: "cell19", for: indexPath)
+                case 19: return getCell(with: "cell20", for: indexPath)
+                case 20: return getCell(with: "cell21", for: indexPath)
+                case 21: return getCell(with: "cell22", for: indexPath)
+                case 22: return getCell(with: "cell23", for: indexPath)
+                case 23: return getCell(with: "cell24", for: indexPath)
+                case 24: return getCell(with: "cell25", for: indexPath)
+                case 25: return getCell(with: "cell26", for: indexPath)
+                case 26: return getCell(with: "cell27", for: indexPath)
+                case 27: return getCell(with: "cell28", for: indexPath)
                 
                   
               
