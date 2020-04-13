@@ -15,11 +15,11 @@ struct SideMenuContent {
         menu.append(getItem2())
         menu.append(getItem3())
         menu.append(getItem4())
-        menu.append(getItem5())
+//        menu.append(getItem5())
         menu.append(getItem6())
-        menu.append(getItem7())
+//        menu.append(getItem7())
         menu.append(getItem8())
-        menu.append(getItem9())
+//        menu.append(getItem9())
         
         return menu
         

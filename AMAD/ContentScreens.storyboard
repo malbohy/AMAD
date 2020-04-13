@@ -18,22 +18,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qb3-Yf-Yiz">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="61.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="2000"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8K-dm-5C1">
-                                        <rect key="frame" x="132" y="0.0" width="56" height="20.5"/>
+                                        <rect key="frame" x="132" y="0.0" width="56" height="666.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tR-Ys-1qh">
-                                        <rect key="frame" x="132" y="20.5" width="56" height="20.5"/>
+                                        <rect key="frame" x="132" y="666.5" width="56" height="667"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiN-dU-CXM">
-                                        <rect key="frame" x="132" y="41" width="56" height="20.5"/>
+                                        <rect key="frame" x="132" y="1333.5" width="56" height="666.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -2722,14 +2722,14 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell10" id="dML-Fz-k1W">
                                                 <rect key="frame" x="2790" y="100" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="134-tX-qaj">
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="134-tX-qaj">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbc-zR-nbh">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pbc-zR-nbh">
                                                             <rect key="frame" x="1" y="1" width="298" height="998"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_10" translatesAutoresizingMaskIntoConstraints="NO" id="ivs-wa-SmK">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="slide_10" translatesAutoresizingMaskIntoConstraints="NO" id="ivs-wa-SmK">
                                                                     <rect key="frame" x="-38.5" y="0.0" width="375" height="998"/>
                                                                 </imageView>
                                                             </subviews>
@@ -2754,14 +2754,14 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell11" id="bk6-Bm-HWz">
                                                 <rect key="frame" x="3100" y="100" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Xhq-D6-mxl">
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Xhq-D6-mxl">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SvV-us-RXC">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SvV-us-RXC">
                                                             <rect key="frame" x="1" y="1" width="298" height="998"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slide_11" translatesAutoresizingMaskIntoConstraints="NO" id="WqT-TW-AsQ">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="slide_11" translatesAutoresizingMaskIntoConstraints="NO" id="WqT-TW-AsQ">
                                                                     <rect key="frame" x="-38.5" y="0.0" width="375" height="998"/>
                                                                 </imageView>
                                                             </subviews>
