@@ -11,14 +11,20 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-//    var window: UIWindow?
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        self.window = UIWindow(frame: UIScreen.main.bounds)
-//        let rootVC = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "templateView")
-//        self.window?.rootViewController = rootVC
-//        self.window?.makeKeyAndVisible()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let rootVC = self.getViewController(fromStoryBoardNamed: "Auth", withIdentifier: "AuthChooser")
+        let rootNavigationCOntroller = UINavigationController()
+        rootNavigationCOntroller.setViewControllers([rootVC], animated: true)
+        rootNavigationCOntroller.navigationBar
+        rootNavigationCOntroller.navigationBar.setBackgroundImage(UIImage(), for: .default) //UIImage.init(named: "transparent.png")
+        rootNavigationCOntroller.navigationBar.shadowImage = UIImage()
+        rootNavigationCOntroller.navigationBar.isTranslucent = true
+        rootNavigationCOntroller.view.backgroundColor = .clear
+        self.window?.rootViewController = rootNavigationCOntroller
         
         return true
     }

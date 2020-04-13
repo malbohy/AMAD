@@ -56,7 +56,18 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         let vc = self.getViewController(fromStoryBoardNamed: "Main", withIdentifier: "sideMenu")
-        UIApplication.shared.windows.first?.rootViewController = vc
+        
+        let systemVersion = Double(UIDevice.current.systemVersion)!
+        
+        print(systemVersion)
+        if systemVersion <= 12.4{
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+             appDelegate.window!.rootViewController = vc
+        }else{
+            UIApplication.shared.windows.first?.rootViewController = vc
+        }
+        
+        
         
 
     }
