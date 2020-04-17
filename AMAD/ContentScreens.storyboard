@@ -3468,35 +3468,77 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
             <objects>
                 <viewController storyboardIdentifier="Leka2atTahomakVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tGb-OA-mJx" customClass="Leka2atTahomakViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xpx-X6-4SQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="1PU-dT-3Ka">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJk-Hm-10E">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="489"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_1" translatesAutoresizingMaskIntoConstraints="NO" id="vcf-iM-rpO">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0Q-0V-FpO">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <connections>
+                                                    <action selector="vedio1:" destination="tGb-OA-mJx" eventType="touchUpInside" id="BY3-tr-vwC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="vcf-iM-rpO" secondAttribute="trailing" id="0AW-jw-TTp"/>
+                                            <constraint firstAttribute="trailing" secondItem="g0Q-0V-FpO" secondAttribute="trailing" id="4Cd-hm-w0d"/>
+                                            <constraint firstAttribute="bottom" secondItem="vcf-iM-rpO" secondAttribute="bottom" id="IPJ-d0-VHZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="g0Q-0V-FpO" secondAttribute="bottom" id="Rkb-ep-xAr"/>
+                                            <constraint firstItem="g0Q-0V-FpO" firstAttribute="top" secondItem="tJk-Hm-10E" secondAttribute="top" id="gJ2-E3-Ll7"/>
+                                            <constraint firstItem="g0Q-0V-FpO" firstAttribute="leading" secondItem="tJk-Hm-10E" secondAttribute="leading" id="ngB-Td-FoS"/>
+                                            <constraint firstItem="vcf-iM-rpO" firstAttribute="top" secondItem="tJk-Hm-10E" secondAttribute="top" id="oI4-ii-ZgV"/>
+                                            <constraint firstItem="vcf-iM-rpO" firstAttribute="leading" secondItem="tJk-Hm-10E" secondAttribute="leading" id="rLI-eg-rCQ"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beJ-xi-Y3O">
-                                        <rect key="frame" x="0.0" y="511" width="320" height="489"/>
+                                        <rect key="frame" x="0.0" y="361" width="320" height="339"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_2" translatesAutoresizingMaskIntoConstraints="NO" id="Pir-z5-vRV">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlN-kA-S9C">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <connections>
+                                                    <action selector="vedio2:" destination="tGb-OA-mJx" eventType="touchUpInside" id="Rli-ZE-OxE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="RlN-kA-S9C" firstAttribute="top" secondItem="beJ-xi-Y3O" secondAttribute="top" id="5nu-a3-qbj"/>
+                                            <constraint firstItem="Pir-z5-vRV" firstAttribute="top" secondItem="beJ-xi-Y3O" secondAttribute="top" id="HXM-OL-iFX"/>
+                                            <constraint firstItem="RlN-kA-S9C" firstAttribute="leading" secondItem="beJ-xi-Y3O" secondAttribute="leading" id="I0Y-1e-AHW"/>
+                                            <constraint firstAttribute="bottom" secondItem="Pir-z5-vRV" secondAttribute="bottom" id="NJ0-B5-Dmj"/>
+                                            <constraint firstAttribute="trailing" secondItem="RlN-kA-S9C" secondAttribute="trailing" id="XIO-GW-ymF"/>
+                                            <constraint firstItem="Pir-z5-vRV" firstAttribute="leading" secondItem="beJ-xi-Y3O" secondAttribute="leading" id="kkt-XZ-SDq"/>
+                                            <constraint firstAttribute="trailing" secondItem="Pir-z5-vRV" secondAttribute="trailing" id="rkb-qd-dmj"/>
+                                            <constraint firstAttribute="bottom" secondItem="RlN-kA-S9C" secondAttribute="bottom" id="sYX-Vs-dfO"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1000" id="RRp-eI-l9W"/>
+                                    <constraint firstAttribute="height" constant="700" id="xE7-B1-jCc"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <constraints>
                             <constraint firstItem="1PU-dT-3Ka" firstAttribute="leading" secondItem="0Or-Ej-c5M" secondAttribute="leading" id="IdT-rJ-74e"/>
-                            <constraint firstItem="0Or-Ej-c5M" firstAttribute="bottom" secondItem="1PU-dT-3Ka" secondAttribute="bottom" id="PmR-O0-Nx9"/>
                             <constraint firstItem="0Or-Ej-c5M" firstAttribute="trailing" secondItem="1PU-dT-3Ka" secondAttribute="trailing" id="VtM-FH-usN"/>
+                            <constraint firstAttribute="bottom" secondItem="1PU-dT-3Ka" secondAttribute="bottom" id="czH-FH-4Px"/>
                             <constraint firstItem="1PU-dT-3Ka" firstAttribute="top" secondItem="0Or-Ej-c5M" secondAttribute="top" id="nlk-Yp-AyS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0Or-Ej-c5M"/>
                     </view>
-                    <size key="freeformSize" width="320" height="1000"/>
+                    <size key="freeformSize" width="320" height="700"/>
                     <connections>
                         <outlet property="vedio1_view" destination="tJk-Hm-10E" id="5F4-42-4U7"/>
                         <outlet property="vedio2_view" destination="beJ-xi-Y3O" id="DPj-UH-Ebm"/>
@@ -3619,6 +3661,81 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
             </objects>
             <point key="canvasLocation" x="11029" y="4004"/>
         </scene>
+        <!--Tazker bel gor 3at View Controller-->
+        <scene sceneID="LyR-77-mcv">
+            <objects>
+                <viewController storyboardIdentifier="tazker_gor3at" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zC1-a6-wpg" customClass="Tazker_bel_gor3atViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eKZ-2Y-Meh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="2Oc-PX-z5N">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTK-pl-z34">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_1" translatesAutoresizingMaskIntoConstraints="NO" id="iRH-4C-1nz">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkM-DB-ALl">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="iRH-4C-1nz" secondAttribute="bottom" id="3PA-ra-kOa"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="leading" secondItem="hTK-pl-z34" secondAttribute="leading" id="Dv5-id-8Wu"/>
+                                            <constraint firstAttribute="trailing" secondItem="iRH-4C-1nz" secondAttribute="trailing" id="Ehn-dT-24S"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="top" secondItem="hTK-pl-z34" secondAttribute="top" id="Mlw-dq-rhx"/>
+                                            <constraint firstItem="iRH-4C-1nz" firstAttribute="top" secondItem="hTK-pl-z34" secondAttribute="top" id="Pwz-I5-tDu"/>
+                                            <constraint firstAttribute="trailing" secondItem="zkM-DB-ALl" secondAttribute="trailing" id="TVl-jb-vbk"/>
+                                            <constraint firstItem="iRH-4C-1nz" firstAttribute="leading" secondItem="hTK-pl-z34" secondAttribute="leading" id="pGj-lG-pOd"/>
+                                            <constraint firstAttribute="bottom" secondItem="zkM-DB-ALl" secondAttribute="bottom" id="qpD-rI-B9d"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfO-ML-hrb">
+                                        <rect key="frame" x="0.0" y="361" width="320" height="339"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_2" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-Ml-E4k">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujQ-8M-8wv">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ZCT-Ml-E4k" secondAttribute="trailing" id="HHY-pM-Gcx"/>
+                                            <constraint firstItem="ujQ-8M-8wv" firstAttribute="top" secondItem="JfO-ML-hrb" secondAttribute="top" id="Lee-b9-kOY"/>
+                                            <constraint firstItem="ujQ-8M-8wv" firstAttribute="leading" secondItem="JfO-ML-hrb" secondAttribute="leading" id="TTI-u4-GgA"/>
+                                            <constraint firstItem="ZCT-Ml-E4k" firstAttribute="leading" secondItem="JfO-ML-hrb" secondAttribute="leading" id="afL-8L-pwa"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZCT-Ml-E4k" secondAttribute="bottom" id="f5U-09-vby"/>
+                                            <constraint firstAttribute="bottom" secondItem="ujQ-8M-8wv" secondAttribute="bottom" id="i78-Mf-eT4"/>
+                                            <constraint firstItem="ZCT-Ml-E4k" firstAttribute="top" secondItem="JfO-ML-hrb" secondAttribute="top" id="p0k-pu-iir"/>
+                                            <constraint firstAttribute="trailing" secondItem="ujQ-8M-8wv" secondAttribute="trailing" id="tzT-lT-KWh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="arf-xg-MvV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="2Oc-PX-z5N" secondAttribute="bottom" id="3rn-Gl-SVH"/>
+                            <constraint firstItem="2Oc-PX-z5N" firstAttribute="leading" secondItem="ps7-Yd-iVK" secondAttribute="leading" id="CQp-IN-3tC"/>
+                            <constraint firstItem="2Oc-PX-z5N" firstAttribute="top" secondItem="ps7-Yd-iVK" secondAttribute="top" id="SFT-S2-RRv"/>
+                            <constraint firstItem="ps7-Yd-iVK" firstAttribute="trailing" secondItem="2Oc-PX-z5N" secondAttribute="trailing" id="bUC-CD-mnr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ps7-Yd-iVK"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="700"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wcb-RU-IO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10039" y="5228"/>
+        </scene>
     </scenes>
     <resources>
         <image name="3elag_slide_1" width="375" height="549"/>
@@ -3638,6 +3755,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
         <image name="ic_setting_man_3" width="93" height="170"/>
         <image name="ic_standing_people_" width="70" height="70"/>
         <image name="ic_talking_people" width="92" height="94"/>
+        <image name="ic_vedio_1" width="750" height="790"/>
+        <image name="ic_vedio_2" width="750" height="790"/>
         <image name="slide_1" width="375" height="645"/>
         <image name="slide_10" width="375" height="537"/>
         <image name="slide_11" width="375" height="953"/>

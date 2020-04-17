@@ -22,6 +22,7 @@
 		C84E9EEB2449B2A7005BF752 /* patient_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C84E9EEA2449B295005BF752 /* patient_2.mp4 */; };
 		C84E9EED2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */; };
 		C84E9EEF2449D466005BF752 /* VIPWebSitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */; };
+		C84E9EF12449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */; };
 		C870DFD32424EE0F00B84783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD22424EE0F00B84783 /* AppDelegate.swift */; };
 		C870DFD52424EE0F00B84783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD42424EE0F00B84783 /* SceneDelegate.swift */; };
 		C870DFD72424EE0F00B84783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD62424EE0F00B84783 /* ViewController.swift */; };
@@ -74,6 +75,7 @@
 		C84E9EEA2449B295005BF752 /* patient_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = patient_2.mp4; sourceTree = "<group>"; };
 		C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adwaya_ll_mosabeen_ViewController.swift; sourceTree = "<group>"; };
 		C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPWebSitesViewController.swift; sourceTree = "<group>"; };
+		C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tazker_bel_gor3atViewController.swift; sourceTree = "<group>"; };
 		C870DFCF2424EE0F00B84783 /* AMAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C870DFD22424EE0F00B84783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C870DFD42424EE0F00B84783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				C84E9EE52449AE62005BF752 /* Leka2atTahomakViewController.swift */,
 				C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */,
 				C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */,
+				C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C81CAE1C242779C800965046 /* LoginViewController.swift in Sources */,
+				C84E9EF12449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift in Sources */,
 				C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */,
 				C84E9EE62449AE62005BF752 /* Leka2atTahomakViewController.swift in Sources */,
 				C8F08D502430289E00FC18E1 /* Tanafos_botenyViewController.swift in Sources */,

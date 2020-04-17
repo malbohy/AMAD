@@ -52,6 +52,11 @@ class HomeViewController: UIViewController {
     
     @IBAction func estesharaButtunTapped(_ sender: Any) {
         print("Open Tazker Bel Gor3at Screen")
+        // tazker_gor3at
+        
+        
+        OpenTemplateScreen().open(from: self, with: "ContentScreens", ID: "tazker_gor3at",title: "التصلب المتعدد")
+        
     }
     
     
