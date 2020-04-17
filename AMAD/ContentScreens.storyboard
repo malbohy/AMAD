@@ -3672,14 +3672,35 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="2Oc-PX-z5N">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-bq-5Dd">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="esmElDwa2:" destination="zC1-a6-wpg" eventType="touchUpInside" id="3bh-ZX-FGt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFz-gJ-34r">
+                                        <rect key="frame" x="0.0" y="144.5" width="320" height="122.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="el_gor3a:" destination="zC1-a6-wpg" eventType="touchUpInside" id="rko-Jp-fkV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-iD-HgT">
+                                        <rect key="frame" x="0.0" y="289" width="320" height="122"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="timePickerClicked:" destination="zC1-a6-wpg" eventType="touchUpInside" id="OWN-zd-uqh"/>
+                                        </connections>
+                                    </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTK-pl-z34">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                        <rect key="frame" x="0.0" y="433" width="320" height="122.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_1" translatesAutoresizingMaskIntoConstraints="NO" id="iRH-4C-1nz">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkM-DB-ALl">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -3695,13 +3716,13 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfO-ML-hrb">
-                                        <rect key="frame" x="0.0" y="361" width="320" height="339"/>
+                                        <rect key="frame" x="0.0" y="577.5" width="320" height="122.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_2" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-Ml-E4k">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujQ-8M-8wv">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -3731,6 +3752,11 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                         <viewLayoutGuide key="safeArea" id="ps7-Yd-iVK"/>
                     </view>
                     <size key="freeformSize" width="320" height="700"/>
+                    <connections>
+                        <outlet property="esmElDwarButton" destination="Ul5-bq-5Dd" id="v4w-OS-hpB"/>
+                        <outlet property="timePickerButton" destination="eEi-iD-HgT" id="L7U-XY-gEd"/>
+                        <outlet property="times" destination="qFz-gJ-34r" id="00M-aK-Ch5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcb-RU-IO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

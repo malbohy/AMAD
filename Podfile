@@ -7,6 +7,8 @@ target 'AMAD' do
   pod 'SideMenuController', '~> 0.2'
   pod 'ExpandableTableViewController', '~> 2.1'
   pod 'RxGesture'
+  pod 'DropDown'
+
   # Pods for AMAD
 
 end
