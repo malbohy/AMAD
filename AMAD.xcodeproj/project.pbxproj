@@ -17,6 +17,11 @@
 		C822542B24254C4B00749489 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542A24254C4B00749489 /* HomeViewController.swift */; };
 		C822542E24258C4900749489 /* TemplateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822542D24258C4900749489 /* TemplateScreen.swift */; };
 		C822543224258DA700749489 /* ScreensContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822543124258DA700749489 /* ScreensContent.swift */; };
+		C84E9EE62449AE62005BF752 /* Leka2atTahomakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EE52449AE62005BF752 /* Leka2atTahomakViewController.swift */; };
+		C84E9EE82449AF6F005BF752 /* patient_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C84E9EE72449AF5D005BF752 /* patient_1.mp4 */; };
+		C84E9EEB2449B2A7005BF752 /* patient_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C84E9EEA2449B295005BF752 /* patient_2.mp4 */; };
+		C84E9EED2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */; };
+		C84E9EEF2449D466005BF752 /* VIPWebSitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */; };
 		C870DFD32424EE0F00B84783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD22424EE0F00B84783 /* AppDelegate.swift */; };
 		C870DFD52424EE0F00B84783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD42424EE0F00B84783 /* SceneDelegate.swift */; };
 		C870DFD72424EE0F00B84783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD62424EE0F00B84783 /* ViewController.swift */; };
@@ -64,6 +69,11 @@
 		C822542A24254C4B00749489 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C822542D24258C4900749489 /* TemplateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateScreen.swift; sourceTree = "<group>"; };
 		C822543124258DA700749489 /* ScreensContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensContent.swift; sourceTree = "<group>"; };
+		C84E9EE52449AE62005BF752 /* Leka2atTahomakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leka2atTahomakViewController.swift; sourceTree = "<group>"; };
+		C84E9EE72449AF5D005BF752 /* patient_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = patient_1.mp4; sourceTree = "<group>"; };
+		C84E9EEA2449B295005BF752 /* patient_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = patient_2.mp4; sourceTree = "<group>"; };
+		C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adwaya_ll_mosabeen_ViewController.swift; sourceTree = "<group>"; };
+		C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPWebSitesViewController.swift; sourceTree = "<group>"; };
 		C870DFCF2424EE0F00B84783 /* AMAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C870DFD22424EE0F00B84783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C870DFD42424EE0F00B84783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,6 +229,8 @@
 		C870DFD12424EE0F00B84783 /* AMAD */ = {
 			isa = PBXGroup;
 			children = (
+				C84E9EE72449AF5D005BF752 /* patient_1.mp4 */,
+				C84E9EEA2449B295005BF752 /* patient_2.mp4 */,
 				C8832245242B16720090412C /* Helpers */,
 				C870DFE624252B3100B84783 /* Extension */,
 				C81CAE082426E8A200965046 /* CommonControllers */,
@@ -239,6 +251,9 @@
 				C8F08D4F2430289E00FC18E1 /* Tanafos_botenyViewController.swift */,
 				C8F08D5124316A2700FC18E1 /* Rayada_3alagyaViewController.swift */,
 				C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */,
+				C84E9EE52449AE62005BF752 /* Leka2atTahomakViewController.swift */,
+				C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */,
+				C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -384,6 +399,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84E9EEB2449B2A7005BF752 /* patient_2.mp4 in Resources */,
+				C84E9EE82449AF6F005BF752 /* patient_1.mp4 in Resources */,
 				C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */,
 				C81CAE1224276C5A00965046 /* Auth.storyboard in Resources */,
 				C870DFDF2424EE1400B84783 /* LaunchScreen.storyboard in Resources */,
@@ -443,8 +460,10 @@
 			files = (
 				C81CAE1C242779C800965046 /* LoginViewController.swift in Sources */,
 				C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */,
+				C84E9EE62449AE62005BF752 /* Leka2atTahomakViewController.swift in Sources */,
 				C8F08D502430289E00FC18E1 /* Tanafos_botenyViewController.swift in Sources */,
 				C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */,
+				C84E9EEF2449D466005BF752 /* VIPWebSitesViewController.swift in Sources */,
 				C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */,
 				C8F08D4E2430261F00FC18E1 /* TestCollectionVIewViewController.swift in Sources */,
 				C822542E24258C4900749489 /* TemplateScreen.swift in Sources */,
@@ -467,6 +486,7 @@
 				C822543224258DA700749489 /* ScreensContent.swift in Sources */,
 				C8E05E642426DEE200340B9F /* MenuBodyTableViewCellTableViewCell.swift in Sources */,
 				C870DFF824252B3100B84783 /* UIImage+Extenstions.swift in Sources */,
+				C84E9EED2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift in Sources */,
 				C8F08D5224316A2700FC18E1 /* Rayada_3alagyaViewController.swift in Sources */,
 				C8E05E5D2426C5C900340B9F /* SideMenuContent.swift in Sources */,
 				C81CAE1E24278E1900965046 /* SignUpViewController.swift in Sources */,

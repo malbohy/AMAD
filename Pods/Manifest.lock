@@ -1,20 +1,38 @@
 PODS:
   - ExpandableTableViewController (2.1)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
   - SideMenuController (0.2.4)
 
 DEPENDENCIES:
   - ExpandableTableViewController (~> 2.1)
+  - RxGesture
   - SideMenuController (~> 0.2)
 
 SPEC REPOS:
   trunk:
     - ExpandableTableViewController
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
     - SideMenuController
 
 SPEC CHECKSUMS:
   ExpandableTableViewController: 7a97b8cf60f044b588255a01176cafa5ce2b7438
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
 
-PODFILE CHECKSUM: 31d8f0666e60d79b725483a9042542d3bfda105e
+PODFILE CHECKSUM: da7dccfb82b0aeeae72c2af19695bbf31073c1fd
 
 COCOAPODS: 1.9.0

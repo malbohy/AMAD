@@ -6,7 +6,7 @@ target 'AMAD' do
   use_frameworks!
   pod 'SideMenuController', '~> 0.2'
   pod 'ExpandableTableViewController', '~> 2.1'
-
+  pod 'RxGesture'
   # Pods for AMAD
 
 end

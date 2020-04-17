@@ -189,11 +189,8 @@
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_2" translatesAutoresizingMaskIntoConstraints="NO" id="4lb-cW-c7f">
                                                                         <rect key="frame" x="0.0" y="0.0" width="116" height="110.5"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XG2-ON-Z9B">
-                                                                        <rect key="frame" x="26.5" y="32" width="63.5" height="47"/>
-                                                                        <string key="text">ابحاث 
-و دراسات 
-حول الاصابة</string>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لقاءات تهمك" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XG2-ON-Z9B">
+                                                                        <rect key="frame" x="24.5" y="47.5" width="67" height="16"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -224,10 +221,8 @@
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_1" translatesAutoresizingMaskIntoConstraints="NO" id="H8E-yY-YVu">
                                                                         <rect key="frame" x="0.0" y="0.0" width="116" height="110.5"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4U-in-gO6">
-                                                                        <rect key="frame" x="29" y="39.5" width="58.5" height="31.5"/>
-                                                                        <string key="text">طرق العلاج
- الصحيحة</string>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مواضيع تهمك" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4U-in-gO6">
+                                                                        <rect key="frame" x="22" y="47.5" width="72.5" height="16"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -263,10 +258,8 @@
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_4" translatesAutoresizingMaskIntoConstraints="NO" id="ZUm-O6-L9z">
                                                                         <rect key="frame" x="0.0" y="0.0" width="116" height="110.5"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0P5-GB-8Iu">
-                                                                        <rect key="frame" x="37.5" y="39.5" width="41.5" height="31.5"/>
-                                                                        <string key="text">الاخطاء
- الشائعة</string>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تواصل معنا" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0P5-GB-8Iu">
+                                                                        <rect key="frame" x="29" y="47.5" width="58.5" height="16"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -297,8 +290,8 @@
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_3" translatesAutoresizingMaskIntoConstraints="NO" id="jMA-wy-ewt">
                                                                         <rect key="frame" x="0.0" y="0.0" width="116" height="110.5"/>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="استشارة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsC-F4-E44">
-                                                                        <rect key="frame" x="37.5" y="47.5" width="41.5" height="16"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تذكير بالجرعات" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsC-F4-E44">
+                                                                        <rect key="frame" x="19" y="47.5" width="78" height="16"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>

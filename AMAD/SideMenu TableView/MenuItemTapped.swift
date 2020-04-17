@@ -103,10 +103,14 @@ class MenuItemTapped {
                 OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "ryada_3lagya",title: "تمرينات خاصة بالأطراف العليا")
             break
             
+            case "ما هي الأدوية المتوفرة للمصابين؟":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "adwya_ll_mosabeen",title: "تمرينات خاصة بالأطراف العليا")
+            break
+            case "قصص نجاح مرضى التصلب":
+                OpenTemplateScreen().open(from: self.view, with: "ContentScreens", ID: "Leka2atTahomakVC",title: "قصص نجاح مرضي تصلب")
+            break
             
-            
-            
-            
+
             
             
             
