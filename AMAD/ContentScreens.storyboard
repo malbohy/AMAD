@@ -3672,69 +3672,123 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="2Oc-PX-z5N">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-bq-5Dd">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="esmElDwa2:" destination="zC1-a6-wpg" eventType="touchUpInside" id="3bh-ZX-FGt"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFz-gJ-34r">
-                                        <rect key="frame" x="0.0" y="144.5" width="320" height="122.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="el_gor3a:" destination="zC1-a6-wpg" eventType="touchUpInside" id="rko-Jp-fkV"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-iD-HgT">
-                                        <rect key="frame" x="0.0" y="289" width="320" height="122"/>
-                                        <state key="normal" title="Button"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuj-Fk-Ylv">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="158.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="dNz-wx-1aO">
+                                                <rect key="frame" x="16" y="24" width="288" height="110.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الدواء" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3w2-sO-jwp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="22"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="lgj-Ye-J9P">
+                                                        <rect key="frame" x="0.0" y="44" width="288" height="66.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_drop_down" translatesAutoresizingMaskIntoConstraints="NO" id="ZbW-wH-XtG">
+                                                                <rect key="frame" x="0.0" y="0.0" width="44.5" height="66.5"/>
+                                                            </imageView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-bq-5Dd">
+                                                                <rect key="frame" x="66.5" y="0.0" width="221.5" height="66.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <state key="normal" title="الرجاء اختيار اسم الدواء من القائمه"/>
+                                                                <connections>
+                                                                    <action selector="esmElDwa2:" destination="zC1-a6-wpg" eventType="touchUpInside" id="3bh-ZX-FGt"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="ZbW-wH-XtG" firstAttribute="width" secondItem="Ul5-bq-5Dd" secondAttribute="width" multiplier="0.2" id="Mg2-x8-U1w"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="lgj-Ye-J9P" firstAttribute="height" secondItem="3w2-sO-jwp" secondAttribute="height" multiplier="3" id="Wow-10-fYk"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <constraints>
+                                            <constraint firstItem="dNz-wx-1aO" firstAttribute="centerY" secondItem="kuj-Fk-Ylv" secondAttribute="centerY" id="FMq-Ft-BB9"/>
+                                            <constraint firstItem="dNz-wx-1aO" firstAttribute="centerX" secondItem="kuj-Fk-Ylv" secondAttribute="centerX" id="Yhe-WZ-bQm"/>
+                                            <constraint firstItem="dNz-wx-1aO" firstAttribute="height" secondItem="kuj-Fk-Ylv" secondAttribute="height" multiplier="0.7" id="hcN-Fs-yFX"/>
+                                            <constraint firstItem="dNz-wx-1aO" firstAttribute="width" secondItem="kuj-Fk-Ylv" secondAttribute="width" multiplier="0.9" id="mO0-CT-2Vi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKX-sb-R0a">
+                                        <rect key="frame" x="0.0" y="180.5" width="320" height="158.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="hQe-wK-ouH">
+                                                <rect key="frame" x="16" y="24" width="288" height="110.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="فئه الجرعه" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcz-Hq-ltC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="288" height="22"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="LQf-k7-NMo">
+                                                        <rect key="frame" x="0.0" y="44" width="288" height="66.5"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_drop_down" translatesAutoresizingMaskIntoConstraints="NO" id="RZs-wv-Dwx">
+                                                                <rect key="frame" x="0.0" y="0.0" width="44.5" height="66.5"/>
+                                                            </imageView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFz-gJ-34r">
+                                                                <rect key="frame" x="66.5" y="0.0" width="221.5" height="66.5"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                <state key="normal" title="الرجاء اختيار فئه الجرعه من القائمه"/>
+                                                                <connections>
+                                                                    <action selector="el_gor3a:" destination="zC1-a6-wpg" eventType="touchUpInside" id="rko-Jp-fkV"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="RZs-wv-Dwx" firstAttribute="width" secondItem="qFz-gJ-34r" secondAttribute="width" multiplier="0.2" id="3Na-F5-SQj"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="LQf-k7-NMo" firstAttribute="height" secondItem="Qcz-Hq-ltC" secondAttribute="height" multiplier="3" id="2ct-i9-DFJ"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                        <constraints>
+                                            <constraint firstItem="hQe-wK-ouH" firstAttribute="height" secondItem="RKX-sb-R0a" secondAttribute="height" multiplier="0.7" id="Rmh-3s-ArC"/>
+                                            <constraint firstItem="hQe-wK-ouH" firstAttribute="width" secondItem="RKX-sb-R0a" secondAttribute="width" multiplier="0.9" id="UuP-Qv-2EH"/>
+                                            <constraint firstItem="hQe-wK-ouH" firstAttribute="centerX" secondItem="RKX-sb-R0a" secondAttribute="centerX" id="VLj-8b-cr9"/>
+                                            <constraint firstItem="hQe-wK-ouH" firstAttribute="centerY" secondItem="RKX-sb-R0a" secondAttribute="centerY" id="ku9-JW-WMx"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-iD-HgT">
+                                        <rect key="frame" x="0.0" y="361" width="320" height="158.5"/>
+                                        <state key="normal" title="ميعاد اخر جرعه"/>
                                         <connections>
                                             <action selector="timePickerClicked:" destination="zC1-a6-wpg" eventType="touchUpInside" id="OWN-zd-uqh"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTK-pl-z34">
-                                        <rect key="frame" x="0.0" y="433" width="320" height="122.5"/>
+                                        <rect key="frame" x="0.0" y="541.5" width="320" height="158.5"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_1" translatesAutoresizingMaskIntoConstraints="NO" id="iRH-4C-1nz">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
-                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkM-DB-ALl">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
+                                                <rect key="frame" x="112" y="55.5" width="96" height="47.5"/>
+                                                <color key="backgroundColor" red="0.81960784310000001" green="0.50588235290000005" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <state key="normal" title="اضافه الدواء">
+                                                    <color key="titleColor" red="0.99416029449999999" green="0.99413049220000005" blue="0.9941474199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="addLocaleNotiification:" destination="zC1-a6-wpg" eventType="touchUpInside" id="wuY-Rj-s4Q"/>
+                                                </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="iRH-4C-1nz" secondAttribute="bottom" id="3PA-ra-kOa"/>
-                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="leading" secondItem="hTK-pl-z34" secondAttribute="leading" id="Dv5-id-8Wu"/>
-                                            <constraint firstAttribute="trailing" secondItem="iRH-4C-1nz" secondAttribute="trailing" id="Ehn-dT-24S"/>
-                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="top" secondItem="hTK-pl-z34" secondAttribute="top" id="Mlw-dq-rhx"/>
-                                            <constraint firstItem="iRH-4C-1nz" firstAttribute="top" secondItem="hTK-pl-z34" secondAttribute="top" id="Pwz-I5-tDu"/>
-                                            <constraint firstAttribute="trailing" secondItem="zkM-DB-ALl" secondAttribute="trailing" id="TVl-jb-vbk"/>
-                                            <constraint firstItem="iRH-4C-1nz" firstAttribute="leading" secondItem="hTK-pl-z34" secondAttribute="leading" id="pGj-lG-pOd"/>
-                                            <constraint firstAttribute="bottom" secondItem="zkM-DB-ALl" secondAttribute="bottom" id="qpD-rI-B9d"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfO-ML-hrb">
-                                        <rect key="frame" x="0.0" y="577.5" width="320" height="122.5"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_vedio_2" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-Ml-E4k">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujQ-8M-8wv">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="122.5"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="ZCT-Ml-E4k" secondAttribute="trailing" id="HHY-pM-Gcx"/>
-                                            <constraint firstItem="ujQ-8M-8wv" firstAttribute="top" secondItem="JfO-ML-hrb" secondAttribute="top" id="Lee-b9-kOY"/>
-                                            <constraint firstItem="ujQ-8M-8wv" firstAttribute="leading" secondItem="JfO-ML-hrb" secondAttribute="leading" id="TTI-u4-GgA"/>
-                                            <constraint firstItem="ZCT-Ml-E4k" firstAttribute="leading" secondItem="JfO-ML-hrb" secondAttribute="leading" id="afL-8L-pwa"/>
-                                            <constraint firstAttribute="bottom" secondItem="ZCT-Ml-E4k" secondAttribute="bottom" id="f5U-09-vby"/>
-                                            <constraint firstAttribute="bottom" secondItem="ujQ-8M-8wv" secondAttribute="bottom" id="i78-Mf-eT4"/>
-                                            <constraint firstItem="ZCT-Ml-E4k" firstAttribute="top" secondItem="JfO-ML-hrb" secondAttribute="top" id="p0k-pu-iir"/>
-                                            <constraint firstAttribute="trailing" secondItem="ujQ-8M-8wv" secondAttribute="trailing" id="tzT-lT-KWh"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="centerY" secondItem="hTK-pl-z34" secondAttribute="centerY" id="G7C-97-o7y"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="centerX" secondItem="hTK-pl-z34" secondAttribute="centerX" id="PxO-89-wF7"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="height" secondItem="hTK-pl-z34" secondAttribute="height" multiplier="0.3" id="dKx-eU-xnU"/>
+                                            <constraint firstItem="zkM-DB-ALl" firstAttribute="width" secondItem="hTK-pl-z34" secondAttribute="width" multiplier="0.3" id="lcZ-nK-t0u"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3770,6 +3824,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
         <image name="a3rad_el_tasalob_3" width="375" height="685"/>
         <image name="a3rad_tasalob_bg" width="375" height="867"/>
         <image name="ic_chating_people" width="78" height="70"/>
+        <image name="ic_drop_down" width="13" height="11"/>
         <image name="ic_email-1" width="157" height="157"/>
         <image name="ic_jumping_people" width="91" height="73"/>
         <image name="ic_land_line" width="157" height="157"/>

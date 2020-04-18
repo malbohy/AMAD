@@ -14,6 +14,13 @@ class Tazker_bel_gor3atViewController: UIViewController {
     @IBOutlet weak var esmElDwarButton: UIButton!
     @IBOutlet weak var times: UIButton!
     @IBOutlet weak var timePickerButton: UIButton!
+    let timePicker: UIDatePicker = UIDatePicker()
+    
+    private var selectedDate:String = ""
+    private var drageSechdualType = ""
+    private var drageName = ""
+    
+    
     
     let dragsNames = UIAlertController(title: "اسم الدواء", message: "", preferredStyle: UIAlertController.Style.actionSheet)
     let dragsTimes = UIAlertController(title: "فئه الجرعه", message: "", preferredStyle: UIAlertController.Style.actionSheet)
@@ -78,8 +85,6 @@ class Tazker_bel_gor3atViewController: UIViewController {
     
     
     
-    let timePicker: UIDatePicker = UIDatePicker()
-    
     func showTimes(){
         
         let dragsNamesContent = ["يوميه"]
@@ -128,47 +133,89 @@ class Tazker_bel_gor3atViewController: UIViewController {
         
         let okAction = UIAlertAction(title: "تحديد", style: .default, handler: { (action: UIAlertAction) in
             print("value is \(self.timePicker.date)")
-            self.dateChanged(date: self.timePicker.date)
+            let dateValue = self.dateChanged(date: self.timePicker.date)
+            self.timePickerButton.setTitle("\(dateValue)", for: .normal)
+            
             
         })
         timesPickers.addAction(okAction)
     }
 
 
-    func dateChanged(date:Date) {
+    func dateChanged(date:Date)->String {
         let dateFormatr = DateFormatter()
         dateFormatr.dateFormat = "dd MMMM, h:mm a"
         let strDate = dateFormatr.string(from: (date))
         print(strDate)
+        return strDate
     }
     
-
-
+    
+    @IBAction func addLocaleNotiification(_ sender: Any) {
+        drageName = esmElDwarButton.titleLabel!.text!
+        drageSechdualType = times.titleLabel!.text!
+        selectedDate = timePickerButton.titleLabel!.text!
+        
+        validateSelectedValues()
+        
+    }
+    
+    
+    func validateSelectedValues(){
+        
+        
+        
+        localNotification()
+        
+        
+//        if drageName == "الرجاء اختيار اسم الدواء من القائمه"{
+//            showErrorMessage(for: "Drag Name")
+//            return
+//        }
+//        
+//        if drageSechdualType == "الرجاء اختيار فئه الجرعه من القائمه"{
+//            showErrorMessage(for: "Time For Drag")
+//            return
+//        }
+//        
+//        if selectedDate == "ميعاد اخر جرعه" {
+//            showErrorMessage(for: "Last Drag Time")
+//            return
+//        }
+//        
+//        
+//         self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
+        
+    }
+    
+    private func showErrorMessage(for inputName:String){
+        self.showAlert(withTitle: "Wrong \(inputName)", message: "Please select \(inputName) from menu", actionTitle: "Try Again", action: {})
+    }
+    
 }
 
 
 
-//extension Tazker_bel_gor3atViewController: UICollectionViewDelegate, UITableViewDataSource{
-//
-//    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-//        return 2
-//    }
-//
-//    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-//        return 60
-//    }
-//
-//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-//        return String(format: "%02d", row)
-//    }
-//
-//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-//        if component == 0{
-//            let minute = row
-//            print("minute: \(minute)")
-//        }else{
-//            let second = row
-//            print("second: \(second)")
-//        }
-//    }
-//}
+
+
+
+
+
+import UserNotifications
+struct localNotification{
+    let notificationCenter = UNUserNotificationCenter.current()
+    let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+    
+    init() {
+        notificationCenter.requestAuthorization(options: options) {
+            (didAllow, error) in
+            if !didAllow {
+                print("User has declined notifications")
+            }
+        }
+    }
+    
+    
+}
+
+
