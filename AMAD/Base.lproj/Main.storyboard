@@ -341,22 +341,16 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCm-BA-cPW">
                                                         <rect key="frame" x="0.0" y="0.0" width="54" height="36"/>
                                                         <state key="normal" image="ic_address_book"/>
-                                                        <connections>
-                                                            <action selector="addressBookButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ync-UA-Ex1"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hu6-EB-Cpa">
                                                         <rect key="frame" x="77" y="0.0" width="54" height="36"/>
                                                         <state key="normal" image="ic_home"/>
-                                                        <connections>
-                                                            <action selector="homeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucQ-j3-bNX"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf3-JY-Cfx">
                                                         <rect key="frame" x="154" y="0.0" width="54" height="36"/>
                                                         <state key="normal" image="ic_info"/>
                                                         <connections>
-                                                            <action selector="infoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1SX-G5-pma"/>
+                                                            <action selector="infoButtonTapped:" destination="8eP-YL-gvC" eventType="touchUpInside" id="Kml-4Z-Jxd"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

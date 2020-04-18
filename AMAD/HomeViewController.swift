@@ -59,6 +59,9 @@ class HomeViewController: UIViewController {
         
     }
     
+    @IBAction func infoButtonTapped(_ sender: Any) {
+        OpenTemplateScreen().open(from: self, with: "ContentScreens", ID: "infoVC",title: "التصلب المتعدد")
+    }
     
     
     

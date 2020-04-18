@@ -3816,6 +3816,201 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
             </objects>
             <point key="canvasLocation" x="10039" y="5228"/>
         </scene>
+        <!--Info View Controller-->
+        <scene sceneID="pDQ-cY-FBv">
+            <objects>
+                <viewController storyboardIdentifier="infoVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="z91-fr-5nm" customClass="infoViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yII-SP-gEK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="6RZ-zu-ifH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHP-Hb-z1t">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="58.5"/>
+                                        <state key="normal" title="تواصل معنا "/>
+                                        <connections>
+                                            <action selector="contactUSButtonTapped:" destination="z91-fr-5nm" eventType="touchUpInside" id="RJM-HD-awD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTX-dX-dAq">
+                                        <rect key="frame" x="0.0" y="80.5" width="320" height="58.5"/>
+                                        <state key="normal" title="مواقع التواصل الاجتماعي"/>
+                                        <connections>
+                                            <action selector="socialMediaButtonTapped:" destination="z91-fr-5nm" eventType="touchUpInside" id="RBa-dV-JuL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4J-Nq-gJg">
+                                        <rect key="frame" x="0.0" y="161" width="320" height="58.5"/>
+                                        <state key="normal" title="المراجع"/>
+                                        <connections>
+                                            <action selector="al_marag3_button_tapped:" destination="z91-fr-5nm" eventType="touchUpInside" id="Hrh-Lp-nle"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPh-fV-cZi">
+                                        <rect key="frame" x="0.0" y="241.5" width="320" height="58.5"/>
+                                        <state key="normal" title="الدعم"/>
+                                        <connections>
+                                            <action selector="supportButtonTapped:" destination="z91-fr-5nm" eventType="touchUpInside" id="6oc-qA-JCE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="E1u-pK-t9Q"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6RZ-zu-ifH" secondAttribute="bottom" id="F7h-Bf-F5d"/>
+                            <constraint firstItem="swj-Qm-Qua" firstAttribute="trailing" secondItem="6RZ-zu-ifH" secondAttribute="trailing" id="nBp-c0-vfJ"/>
+                            <constraint firstItem="6RZ-zu-ifH" firstAttribute="leading" secondItem="swj-Qm-Qua" secondAttribute="leading" id="nZw-ZI-cnE"/>
+                            <constraint firstItem="6RZ-zu-ifH" firstAttribute="top" secondItem="swj-Qm-Qua" secondAttribute="top" id="zlP-NX-cRI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="swj-Qm-Qua"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MLg-88-Xyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12422" y="5249"/>
+        </scene>
+        <!--Social Media View Controller-->
+        <scene sceneID="7bG-IX-Agt">
+            <objects>
+                <viewController storyboardIdentifier="socialMedia" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qJy-k7-gIC" customClass="SocialMediaViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zRv-K7-TKz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="kxr-Um-Un6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk4-Sa-hP9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="218.5"/>
+                                        <state key="normal" image="ic_twitter"/>
+                                        <connections>
+                                            <action selector="twitterButton:" destination="qJy-k7-gIC" eventType="touchUpInside" id="zEt-oL-Npg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOw-ez-hIy">
+                                        <rect key="frame" x="0.0" y="240.5" width="320" height="219"/>
+                                        <state key="normal" image="ic_fb"/>
+                                        <connections>
+                                            <action selector="fbButton:" destination="qJy-k7-gIC" eventType="touchUpInside" id="WGl-zL-K2s"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHp-d4-p5i">
+                                        <rect key="frame" x="0.0" y="481.5" width="320" height="218.5"/>
+                                        <state key="normal" image="ic_instagram"/>
+                                        <connections>
+                                            <action selector="instagramButton:" destination="qJy-k7-gIC" eventType="touchUpInside" id="Mpm-Bw-AOl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="7bE-cc-c9O"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="E4z-Pc-LJk" firstAttribute="trailing" secondItem="kxr-Um-Un6" secondAttribute="trailing" id="Iux-G6-OlB"/>
+                            <constraint firstAttribute="bottom" secondItem="kxr-Um-Un6" secondAttribute="bottom" id="K66-sD-BVs"/>
+                            <constraint firstItem="kxr-Um-Un6" firstAttribute="top" secondItem="E4z-Pc-LJk" secondAttribute="top" id="lZ3-kw-RNI"/>
+                            <constraint firstItem="kxr-Um-Un6" firstAttribute="leading" secondItem="E4z-Pc-LJk" secondAttribute="leading" id="qPr-hc-zoT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E4z-Pc-LJk"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="700"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BmA-Mb-PtG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13170" y="4073"/>
+        </scene>
+        <!--SupportVC View Controller-->
+        <scene sceneID="9gI-sR-JK2">
+            <objects>
+                <viewController storyboardIdentifier="supportVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6MK-Zn-fGV" customClass="SupportVCViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fiM-M8-Uoy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="hwv-7x-lIO">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxP-Kn-mmR">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                        <state key="normal" title="سياسه الاستخدام">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="termsConditions:" destination="6MK-Zn-fGV" eventType="touchUpInside" id="Yq8-vd-Tyd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPJ-WR-ZuW">
+                                        <rect key="frame" x="0.0" y="86" width="320" height="64"/>
+                                        <state key="normal" title="سياسه الخصوصيه">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="privacyPolicy:" destination="6MK-Zn-fGV" eventType="touchUpInside" id="geC-wr-Jjn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="1ml-Q6-vKT"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="hwv-7x-lIO" firstAttribute="leading" secondItem="6Zt-jK-PMR" secondAttribute="leading" id="CWV-O8-ZGs"/>
+                            <constraint firstItem="6Zt-jK-PMR" firstAttribute="trailing" secondItem="hwv-7x-lIO" secondAttribute="trailing" id="UVv-nu-M04"/>
+                            <constraint firstAttribute="bottom" secondItem="hwv-7x-lIO" secondAttribute="bottom" id="ddc-KR-kL3"/>
+                            <constraint firstItem="hwv-7x-lIO" firstAttribute="top" secondItem="6Zt-jK-PMR" secondAttribute="top" id="mlW-Y5-S9o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Zt-jK-PMR"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="150"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9tu-UY-RhL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13170" y="6217"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ssj-J4-6CV">
+            <objects>
+                <viewController storyboardIdentifier="refVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Eg-15-yc5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IDJ-aL-FIn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="cmP-OG-xvM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQq-5P-IwN">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                        <state key="normal" image="ic_twitter"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="fTT-zB-oGc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cmP-OG-xvM" firstAttribute="top" secondItem="wqv-kq-4Bh" secondAttribute="top" id="5bv-Jz-abn"/>
+                            <constraint firstItem="wqv-kq-4Bh" firstAttribute="trailing" secondItem="cmP-OG-xvM" secondAttribute="trailing" id="hEj-nU-1od"/>
+                            <constraint firstAttribute="bottom" secondItem="cmP-OG-xvM" secondAttribute="bottom" id="mSK-Cl-NIQ"/>
+                            <constraint firstItem="cmP-OG-xvM" firstAttribute="leading" secondItem="wqv-kq-4Bh" secondAttribute="leading" id="rSA-hg-LeF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wqv-kq-4Bh"/>
+                    </view>
+                    <size key="freeformSize" width="320" height="700"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="57h-ZF-eno" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13170" y="5168"/>
+        </scene>
     </scenes>
     <resources>
         <image name="3elag_slide_1" width="375" height="549"/>
@@ -3826,6 +4021,8 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
         <image name="ic_chating_people" width="78" height="70"/>
         <image name="ic_drop_down" width="13" height="11"/>
         <image name="ic_email-1" width="157" height="157"/>
+        <image name="ic_fb" width="127" height="127"/>
+        <image name="ic_instagram" width="127" height="126"/>
         <image name="ic_jumping_people" width="91" height="73"/>
         <image name="ic_land_line" width="157" height="157"/>
         <image name="ic_notes" width="91" height="105"/>
@@ -3836,6 +4033,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
         <image name="ic_setting_man_3" width="93" height="170"/>
         <image name="ic_standing_people_" width="70" height="70"/>
         <image name="ic_talking_people" width="92" height="94"/>
+        <image name="ic_twitter" width="127" height="126"/>
         <image name="ic_vedio_1" width="750" height="790"/>
         <image name="ic_vedio_2" width="750" height="790"/>
         <image name="slide_1" width="375" height="645"/>

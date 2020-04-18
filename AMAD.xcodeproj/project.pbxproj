@@ -23,6 +23,9 @@
 		C84E9EED2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */; };
 		C84E9EEF2449D466005BF752 /* VIPWebSitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */; };
 		C84E9EF12449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */; };
+		C84E9EF3244B320F005BF752 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EF2244B320F005BF752 /* infoViewController.swift */; };
+		C84E9EF5244B36AB005BF752 /* SocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EF4244B36AB005BF752 /* SocialMediaViewController.swift */; };
+		C84E9EF7244B37DD005BF752 /* SupportVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84E9EF6244B37DD005BF752 /* SupportVCViewController.swift */; };
 		C870DFD32424EE0F00B84783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD22424EE0F00B84783 /* AppDelegate.swift */; };
 		C870DFD52424EE0F00B84783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD42424EE0F00B84783 /* SceneDelegate.swift */; };
 		C870DFD72424EE0F00B84783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870DFD62424EE0F00B84783 /* ViewController.swift */; };
@@ -76,6 +79,9 @@
 		C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adwaya_ll_mosabeen_ViewController.swift; sourceTree = "<group>"; };
 		C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPWebSitesViewController.swift; sourceTree = "<group>"; };
 		C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tazker_bel_gor3atViewController.swift; sourceTree = "<group>"; };
+		C84E9EF2244B320F005BF752 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
+		C84E9EF4244B36AB005BF752 /* SocialMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaViewController.swift; sourceTree = "<group>"; };
+		C84E9EF6244B37DD005BF752 /* SupportVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVCViewController.swift; sourceTree = "<group>"; };
 		C870DFCF2424EE0F00B84783 /* AMAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C870DFD22424EE0F00B84783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C870DFD42424EE0F00B84783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -257,6 +263,9 @@
 				C84E9EEC2449B5ED005BF752 /* Adwaya_ll_mosabeen_ViewController.swift */,
 				C84E9EEE2449D466005BF752 /* VIPWebSitesViewController.swift */,
 				C84E9EF02449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift */,
+				C84E9EF2244B320F005BF752 /* infoViewController.swift */,
+				C84E9EF4244B36AB005BF752 /* SocialMediaViewController.swift */,
+				C84E9EF6244B37DD005BF752 /* SupportVCViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -470,6 +479,8 @@
 				C84E9EEF2449D466005BF752 /* VIPWebSitesViewController.swift in Sources */,
 				C8E05E622426DECF00340B9F /* MenuHeaderTableViewCell.swift in Sources */,
 				C8F08D4E2430261F00FC18E1 /* TestCollectionVIewViewController.swift in Sources */,
+				C84E9EF3244B320F005BF752 /* infoViewController.swift in Sources */,
+				C84E9EF7244B37DD005BF752 /* SupportVCViewController.swift in Sources */,
 				C822542E24258C4900749489 /* TemplateScreen.swift in Sources */,
 				C81CAE072426E72300965046 /* UILabelExtenstion.swift in Sources */,
 				C870DFF724252B3100B84783 /* UIScrollView+Extenstion.swift in Sources */,
@@ -482,6 +493,7 @@
 				C870E00024252B3100B84783 /* UINavigationController.swift in Sources */,
 				C870DFFF24252B3100B84783 /* Encodable_Extenstion.swift in Sources */,
 				C870DFF524252B3100B84783 /* UiViewControllerExtenstion.swift in Sources */,
+				C84E9EF5244B36AB005BF752 /* SocialMediaViewController.swift in Sources */,
 				C870DFFD24252B3100B84783 /* EncodableExtention.swift in Sources */,
 				C870DFF624252B3100B84783 /* UiViewExtenstion.swift in Sources */,
 				C822542B24254C4B00749489 /* HomeViewController.swift in Sources */,
