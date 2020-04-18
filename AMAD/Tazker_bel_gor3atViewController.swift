@@ -161,30 +161,81 @@ class Tazker_bel_gor3atViewController: UIViewController {
     }
     
     
+
     func validateSelectedValues(){
         
         
         
-        localNotification()
         
         
-//        if drageName == "الرجاء اختيار اسم الدواء من القائمه"{
-//            showErrorMessage(for: "Drag Name")
-//            return
-//        }
-//        
-//        if drageSechdualType == "الرجاء اختيار فئه الجرعه من القائمه"{
-//            showErrorMessage(for: "Time For Drag")
-//            return
-//        }
-//        
-//        if selectedDate == "ميعاد اخر جرعه" {
-//            showErrorMessage(for: "Last Drag Time")
-//            return
-//        }
-//        
-//        
-//         self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
+        
+        
+        
+        
+        
+        if drageName == "الرجاء اختيار اسم الدواء من القائمه"{
+            showErrorMessage(for: "Drag Name")
+            return
+        }
+
+        if drageSechdualType == "الرجاء اختيار فئه الجرعه من القائمه"{
+            showErrorMessage(for: "Time For Drag")
+            return
+        }
+
+        if selectedDate == "ميعاد اخر جرعه" {
+            showErrorMessage(for: "Last Drag Time")
+            return
+        }
+        
+        let timeForNextNotification = self.timePicker.date
+        var timeIntervalForNotifications:TimeInterval = 0
+        switch drageSechdualType {
+        case "مره كل سنه":
+            timeIntervalForNotifications = getTimeIntervals(numberOfDays: 365, lastTime: timeForNextNotification)
+        break
+        case "مره كل سته اشهر":
+            timeIntervalForNotifications = getTimeIntervals(numberOfDays: 180, lastTime: timeForNextNotification)
+        break
+        case "مره كل شهر":
+            timeIntervalForNotifications = getTimeIntervals(numberOfDays: 30, lastTime: timeForNextNotification)
+        break
+        case "اسبوعيه":
+            timeIntervalForNotifications = getTimeIntervals(numberOfDays: 7, lastTime: timeForNextNotification)
+        break
+            
+        case "يوميه":
+            timeIntervalForNotifications = getTimeIntervals(numberOfDays: 1, lastTime: timeForNextNotification)
+        break
+        default:
+            
+            break
+        }
+        
+        print("time interval before change : \(timeIntervalForNotifications)")
+        localNotification(withNotificationName: "it is time for your medicine : \(drageName)", time: timeIntervalForNotifications)
+         self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
+        
+        
+        
+    }
+    
+    private func getTimeIntervals(numberOfDays:Int, lastTime:Date)->TimeInterval{
+        var timeIntervalForNotifications:TimeInterval = 0
+        var dayComponent    = DateComponents()
+        dayComponent.day    = numberOfDays // For removing one day (yesterday): -1
+        let theCalendar     = Calendar.current
+        let nextDate        = theCalendar.date(byAdding: dayComponent, to: lastTime)
+        print(nextDate)
+        
+        if lastTime < Date() {
+             timeIntervalForNotifications = nextDate!.timeIntervalSince(Date())
+             return timeIntervalForNotifications
+        }else{
+            timeIntervalForNotifications = nextDate!.timeIntervalSince(lastTime)
+            return timeIntervalForNotifications
+        }
+        
         
     }
     
@@ -205,17 +256,67 @@ import UserNotifications
 struct localNotification{
     let notificationCenter = UNUserNotificationCenter.current()
     let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+    let notificationName:String
+    let notificationTime:TimeInterval
+    init(withNotificationName:String, time:TimeInterval) {
+        self.notificationName = withNotificationName
+        self.notificationTime = time
+        getAcceccToNotifications()
+    }
     
-    init() {
+    
+    private func getAcceccToNotifications(){
+//        notificationCenter.getNotificationSettings { (settings) in
+//          if settings.authorizationStatus != .authorized {
+//
+//          }
+//        }
         notificationCenter.requestAuthorization(options: options) {
             (didAllow, error) in
             if !didAllow {
-                print("User has declined notifications")
+                print("user didn't allow notifications")
             }
         }
+        
+        
+        
+        notificationCenter.getNotificationSettings { (settings) in
+          if settings.authorizationStatus == .authorized {
+            self.scheduleNotification(notificationType: self.notificationName)
+          }
+        }
+        
     }
+    
+    
+    func scheduleNotification(notificationType: String) {
+//        self.appDelegate?.scheduleNotification(notificationType: notificationType)
+        let content = UNMutableNotificationContent()
+        
+        content.title = notificationType
+        content.body = "Now Is The Time To Take Your Medicine : \(self.notificationName)"
+        content.sound = UNNotificationSound.default
+        content.badge = 0
+        
+        let date = Date(timeIntervalSinceNow: self.notificationTime)
+        let triggerDate = Calendar.current.dateComponents([.year,.month,.day,.hour,.minute,.second,], from: date)
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: true)
+        
+        let request = UNNotificationRequest(identifier: "content", content: content, trigger: trigger)
+        notificationCenter.add(request, withCompletionHandler: nil)
+        
+        
+        
+    }
+    
+    
     
     
 }
 
 
+//extension AppDelegate: UNUserNotificationCenterDelegate {
+//
+//}

@@ -8,6 +8,7 @@
 
 import UIKit
 import SideMenuController
+import UserNotifications
 @available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -24,6 +25,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         rootNavigationCOntroller.navigationBar.isTranslucent = true
         rootNavigationCOntroller.view.backgroundColor = .clear
         self.window?.rootViewController = rootNavigationCOntroller
+        
+        let center = UNUserNotificationCenter.current()
+            let options :UNAuthorizationOptions = [.sound, .alert]
+            
+            center.requestAuthorization(options: options, completionHandler: {_,_ in })
+            center.delegate = self
 
         guard let _ = (scene as? UIWindowScene) else { return }
     }
@@ -59,3 +66,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+
+
+@available(iOS 13.0, *)
+extension SceneDelegate:UNUserNotificationCenterDelegate{
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .badge, .sound])
+    }
+    
+}

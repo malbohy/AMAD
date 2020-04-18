@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import UserNotifications
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -26,6 +28,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootNavigationCOntroller.view.backgroundColor = .clear
         self.window?.rootViewController = rootNavigationCOntroller
         
+        
+        let center = UNUserNotificationCenter.current()
+        let options :UNAuthorizationOptions = [.sound, .alert]
+        
+        center.requestAuthorization(options: options, completionHandler: {_,_ in })
+        center.delegate = self
+        
+        
         return true
     }
 
@@ -44,7 +54,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
+    
+    
 
 }
 
+
+
+extension AppDelegate:UNUserNotificationCenterDelegate{
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .badge, .sound])
+    }
+    
+}
