@@ -10,7 +10,7 @@ import UIKit
 import DropDown
 
 class Tazker_bel_gor3atViewController: UIViewController {
-
+    
     @IBOutlet weak var esmElDwarButton: UIButton!
     @IBOutlet weak var times: UIButton!
     @IBOutlet weak var timePickerButton: UIButton!
@@ -33,8 +33,8 @@ class Tazker_bel_gor3atViewController: UIViewController {
         dragTimes()
         showTimes()
         
-  
-
+        
+        
         
         // Do any additional setup after loading the view.
     }
@@ -89,44 +89,44 @@ class Tazker_bel_gor3atViewController: UIViewController {
         
         let dragsNamesContent = ["يوميه"]
         
-//        for drag in dragsNamesContent{
-//            let action = UIAlertAction(title: drag, style: .default) { (action: UIAlertAction) in
-//                self.timePickerButton.setTitle(drag, for: .normal)
-//            }
-//            timesPickers.addAction(action)
-//        }
+        //        for drag in dragsNamesContent{
+        //            let action = UIAlertAction(title: drag, style: .default) { (action: UIAlertAction) in
+        //                self.timePickerButton.setTitle(drag, for: .normal)
+        //            }
+        //            timesPickers.addAction(action)
+        //        }
         
         
-          //assign delegate and datasoursce to its view controller
-//          timePicker.delegate = self
-//          timePicker.dataSource = self
-          // setting properties of the pickerView
-          
-          timePicker.backgroundColor = .white
+        //assign delegate and datasoursce to its view controller
+        //          timePicker.delegate = self
+        //          timePicker.dataSource = self
+        // setting properties of the pickerView
+        
+        timePicker.backgroundColor = .white
         timePicker.tintColor = .red
         
-//        timePicker.addTarget(self, action: #selector(self.dateChanged), for: .valueChanged)
-
-          // add pickerView to the view
-          
+        //        timePicker.addTarget(self, action: #selector(self.dateChanged), for: .valueChanged)
+        
+        // add pickerView to the view
+        
         
         
         
         let margin:CGFloat = 10.0
         let rect = CGRect(x: margin, y: margin, width: timesPickers.view.bounds.size.width - margin * 4.0, height: 220)
         let customView = UIView(frame: rect)
-
+        
         customView.backgroundColor = .green
         timesPickers.view.addSubview(customView)
         
         timePicker.frame.size = customView.frame.size
         customView.addSubview(timePicker)
-//        timePicker.frame = customView.frame
-//        customView.addSubview(timePicker)
+        //        timePicker.frame = customView.frame
+        //        customView.addSubview(timePicker)
         
         
-//        timePicker.frame = timesPickers.view.frame
-//        timesPickers.view.addSubview(timePicker)
+        //        timePicker.frame = timesPickers.view.frame
+        //        timesPickers.view.addSubview(timePicker)
         
         let cancelAction = UIAlertAction(title: "الغاء", style: .cancel, handler: nil)
         timesPickers.addAction(cancelAction)
@@ -140,8 +140,8 @@ class Tazker_bel_gor3atViewController: UIViewController {
         })
         timesPickers.addAction(okAction)
     }
-
-
+    
+    
     func dateChanged(date:Date)->String {
         let dateFormatr = DateFormatter()
         dateFormatr.dateFormat = "dd MMMM, h:mm a"
@@ -161,7 +161,7 @@ class Tazker_bel_gor3atViewController: UIViewController {
     }
     
     
-
+    
     func validateSelectedValues(){
         
         
@@ -177,12 +177,12 @@ class Tazker_bel_gor3atViewController: UIViewController {
             showErrorMessage(for: "Drag Name")
             return
         }
-
+        
         if drageSechdualType == "الرجاء اختيار فئه الجرعه من القائمه"{
             showErrorMessage(for: "Time For Drag")
             return
         }
-
+        
         if selectedDate == "ميعاد اخر جرعه" {
             showErrorMessage(for: "Last Drag Time")
             return
@@ -193,20 +193,20 @@ class Tazker_bel_gor3atViewController: UIViewController {
         switch drageSechdualType {
         case "مره كل سنه":
             timeIntervalForNotifications = getTimeIntervals(numberOfDays: 365, lastTime: timeForNextNotification)
-        break
+            break
         case "مره كل سته اشهر":
             timeIntervalForNotifications = getTimeIntervals(numberOfDays: 180, lastTime: timeForNextNotification)
-        break
+            break
         case "مره كل شهر":
             timeIntervalForNotifications = getTimeIntervals(numberOfDays: 30, lastTime: timeForNextNotification)
-        break
+            break
         case "اسبوعيه":
             timeIntervalForNotifications = getTimeIntervals(numberOfDays: 7, lastTime: timeForNextNotification)
-        break
+            break
             
         case "يوميه":
             timeIntervalForNotifications = getTimeIntervals(numberOfDays: 1, lastTime: timeForNextNotification)
-        break
+            break
         default:
             
             break
@@ -214,7 +214,7 @@ class Tazker_bel_gor3atViewController: UIViewController {
         
         print("time interval before change : \(timeIntervalForNotifications)")
         localNotification(withNotificationName: "it is time for your medicine : \(drageName)", time: timeIntervalForNotifications)
-         self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
+        self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
         
         
         
@@ -229,8 +229,8 @@ class Tazker_bel_gor3atViewController: UIViewController {
         print(nextDate)
         
         if lastTime < Date() {
-             timeIntervalForNotifications = nextDate!.timeIntervalSince(Date())
-             return timeIntervalForNotifications
+            timeIntervalForNotifications = nextDate!.timeIntervalSince(Date())
+            return timeIntervalForNotifications
         }else{
             timeIntervalForNotifications = nextDate!.timeIntervalSince(lastTime)
             return timeIntervalForNotifications
@@ -267,11 +267,11 @@ struct localNotification{
     
     
     private func getAcceccToNotifications(){
-//        notificationCenter.getNotificationSettings { (settings) in
-//          if settings.authorizationStatus != .authorized {
-//
-//          }
-//        }
+        //        notificationCenter.getNotificationSettings { (settings) in
+        //          if settings.authorizationStatus != .authorized {
+        //
+        //          }
+        //        }
         notificationCenter.requestAuthorization(options: options) {
             (didAllow, error) in
             if !didAllow {
@@ -282,16 +282,16 @@ struct localNotification{
         
         
         notificationCenter.getNotificationSettings { (settings) in
-          if settings.authorizationStatus == .authorized {
-            self.scheduleNotification(notificationType: self.notificationName)
-          }
+            if settings.authorizationStatus == .authorized {
+                self.scheduleNotification(notificationType: self.notificationName)
+            }
         }
         
     }
     
     
     func scheduleNotification(notificationType: String) {
-//        self.appDelegate?.scheduleNotification(notificationType: notificationType)
+        //        self.appDelegate?.scheduleNotification(notificationType: notificationType)
         let content = UNMutableNotificationContent()
         
         content.title = notificationType

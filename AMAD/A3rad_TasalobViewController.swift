@@ -22,9 +22,34 @@ class A3rad_TasalobViewController: UIViewController,UICollectionViewDelegate, UI
         slides.delegate = self
         
         //        slidesHight.constant = self.view.frame.size.height / 3
-//        stackViewHight.constant = self.view.frame.size.height - 200
+        //        stackViewHight.constant = self.view.frame.size.height - 200
         // Do any additional setup after loading the view.
+        setupPageIndecator()
+
     }
+    
+    
+    
+    var pageControlllerSlides: UIPageControl = UIPageControl()
+    
+    func setupPageIndecator(){
+        let heightConstraint = NSLayoutConstraint(item: self.pageControlllerSlides, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 5)
+        NSLayoutConstraint.activate([heightConstraint])
+        self.pageControlllerSlides.backgroundColor = .clear
+        self.pageControlllerSlides.pageIndicatorTintColor = UIColor.gray
+        self.pageControlllerSlides.currentPageIndicatorTintColor = UIColor.orange
+        self.stackVIew.addArrangedSubview(self.pageControlllerSlides)
+        print("\n\n\n\n\n\n")
+        print(self.slides.numberOfItems(inSection: 0))
+        print("\n\n\n\n\n\n")
+        self.pageControlllerSlides.numberOfPages = self.slides.numberOfItems(inSection: 0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        self.pageControlllerSlides.currentPage = indexPath.row
+    }
+    
+    
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -37,21 +62,21 @@ class A3rad_TasalobViewController: UIViewController,UICollectionViewDelegate, UI
         case 0: return getCell(with: "firstCell", for: indexPath)
         case 1: return getCell(with: "cell2", for: indexPath)
         case 2: return getCell(with: "cell3", for: indexPath)
-//        case 3: return getCell(with: "cell4", for: indexPath)
-//        case 4: return getCell(with: "cell5", for: indexPath)
-//        case 5: return getCell(with: "cell6", for: indexPath)
-//        case 6: return getCell(with: "cell7", for: indexPath)
-//        case 7: return getCell(with: "cell8", for: indexPath)
-//        case 8: return getCell(with: "cell9", for: indexPath)
-//        case 9: return getCell(with: "cell10", for: indexPath)
-//        case 10: return getCell(with: "cell11", for: indexPath)
-//        case 11: return getCell(with: "cell12", for: indexPath)
-//        case 12: return getCell(with: "cell13", for: indexPath)
-//        case 13: return getCell(with: "cell14", for: indexPath)
-//        case 14: return getCell(with: "cell15", for: indexPath)
-//        case 15: return getCell(with: "cell16", for: indexPath)
-//        case 16: return getCell(with: "cell17", for: indexPath)
-//        case 17: return getCell(with: "cell18", for: indexPath)
+            //        case 3: return getCell(with: "cell4", for: indexPath)
+            //        case 4: return getCell(with: "cell5", for: indexPath)
+            //        case 5: return getCell(with: "cell6", for: indexPath)
+            //        case 6: return getCell(with: "cell7", for: indexPath)
+            //        case 7: return getCell(with: "cell8", for: indexPath)
+            //        case 8: return getCell(with: "cell9", for: indexPath)
+            //        case 9: return getCell(with: "cell10", for: indexPath)
+            //        case 10: return getCell(with: "cell11", for: indexPath)
+            //        case 11: return getCell(with: "cell12", for: indexPath)
+            //        case 12: return getCell(with: "cell13", for: indexPath)
+            //        case 13: return getCell(with: "cell14", for: indexPath)
+            //        case 14: return getCell(with: "cell15", for: indexPath)
+            //        case 15: return getCell(with: "cell16", for: indexPath)
+            //        case 16: return getCell(with: "cell17", for: indexPath)
+            //        case 17: return getCell(with: "cell18", for: indexPath)
             
             
             

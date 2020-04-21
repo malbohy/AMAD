@@ -12,8 +12,18 @@ class Tanafos_botenyViewController: UIViewController,UICollectionViewDelegate, U
 
     @IBOutlet weak var slides: UICollectionView!
     
+    
     @IBOutlet weak var stackVIew: UIStackView!
     @IBOutlet weak var stackViewHight: NSLayoutConstraint!
+    
+    var thisWidth:CGFloat = 0
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        thisWidth = CGFloat(self.view.frame.width)
+         pageControlllerSlides.hidesForSinglePage = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
             
@@ -23,7 +33,36 @@ class Tanafos_botenyViewController: UIViewController,UICollectionViewDelegate, U
 //        slidesHight.constant = self.view.frame.size.height / 3
         stackViewHight.constant = self.view.frame.size.height - 200
         // Do any additional setup after loading the view.
+//        setScrollIndicatorColor(color: UIColor.red)
+        setupPageIndecator()
+        
     }
+    var pageControlllerSlides: UIPageControl = UIPageControl()
+    
+    func setupPageIndecator(){
+        let heightConstraint = NSLayoutConstraint(item: self.pageControlllerSlides, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 5)
+        NSLayoutConstraint.activate([heightConstraint])
+        self.pageControlllerSlides.backgroundColor = .clear
+        self.pageControlllerSlides.pageIndicatorTintColor = UIColor.gray
+        self.pageControlllerSlides.currentPageIndicatorTintColor = UIColor.orange
+        self.stackVIew.addArrangedSubview(self.pageControlllerSlides)
+        print("\n\n\n\n\n\n")
+        print(self.slides.numberOfItems(inSection: 0))
+        print("\n\n\n\n\n\n")
+        self.pageControlllerSlides.numberOfPages = self.slides.numberOfItems(inSection: 0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        self.pageControlllerSlides.currentPage = indexPath.row
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

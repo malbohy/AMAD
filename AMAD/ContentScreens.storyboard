@@ -2063,14 +2063,14 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
             <objects>
                 <viewController storyboardIdentifier="tanfos_botenty" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dfv-40-f66" customClass="Tanafos_botenyViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fVR-Mn-nQH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="oUT-ZP-99C">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oUT-ZP-99C">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                                 <subviews>
-                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-nS-clT">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dBw-nS-clT">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1300"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mSV-m4-ynq">
                                             <size key="itemSize" width="300" height="300"/>
@@ -2080,7 +2080,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="firstCell" id="Ivq-K0-29h">
-                                                <rect key="frame" x="0.0" y="100" width="300" height="1000"/>
+                                                <rect key="frame" x="0.0" y="150" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ed6-h7-SoD">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
@@ -2153,7 +2153,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                                 <size key="customSize" width="300" height="1000"/>
                                             </collectionViewCell>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell2" id="Gup-lE-1EU">
-                                                <rect key="frame" x="310" y="100" width="300" height="1000"/>
+                                                <rect key="frame" x="310" y="150" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Bls-QA-rDf">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
@@ -2279,7 +2279,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                                 <size key="customSize" width="300" height="1000"/>
                                             </collectionViewCell>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell3" id="3Ot-ky-a8F">
-                                                <rect key="frame" x="620" y="100" width="300" height="1000"/>
+                                                <rect key="frame" x="620" y="150" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="liV-Ar-qgZ">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
@@ -2393,11 +2393,10 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                     </collectionView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1200" id="MHG-a9-Xvd"/>
+                                    <constraint firstAttribute="height" constant="1300" id="MHG-a9-Xvd"/>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.94117647059999998" green="0.21960784310000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oUT-ZP-99C" firstAttribute="leading" secondItem="Pmm-MZ-RC2" secondAttribute="leading" id="OAg-Jq-RGR"/>
                             <constraint firstItem="Pmm-MZ-RC2" firstAttribute="bottom" secondItem="oUT-ZP-99C" secondAttribute="bottom" id="OJ7-kf-QRR"/>
@@ -2406,7 +2405,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pmm-MZ-RC2"/>
                     </view>
-                    <size key="freeformSize" width="320" height="1200"/>
+                    <size key="freeformSize" width="320" height="1300"/>
                     <connections>
                         <outlet property="slides" destination="dBw-nS-clT" id="t9G-GZ-koC"/>
                         <outlet property="stackVIew" destination="oUT-ZP-99C" id="T3i-D3-qi9"/>
