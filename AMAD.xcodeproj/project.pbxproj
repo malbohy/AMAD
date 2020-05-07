@@ -47,6 +47,11 @@
 		C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8832246242B168F0090412C /* OpenTemplateScreen.swift */; };
 		C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8832248242B179F0090412C /* ContentScreens.storyboard */; };
 		C8875C54243CBBEA00F8139B /* A3rad_TasalobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */; };
+		C892859D246382F20015FC77 /* table_1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C892859C246382F20015FC77 /* table_1.pdf */; };
+		C892859F246383070015FC77 /* table_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C892859E246383060015FC77 /* table_2.pdf */; };
+		C89285A2246384270015FC77 /* PDFViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89285A0246384270015FC77 /* PDFViewerViewController.swift */; };
+		C89285A3246384270015FC77 /* PDFViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C89285A1246384270015FC77 /* PDFViewerViewController.xib */; };
+		C89285A5246388780015FC77 /* anwa3_tasalobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89285A4246388780015FC77 /* anwa3_tasalobViewController.swift */; };
 		C8E05E532426933800340B9F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E522426933800340B9F /* RootViewController.swift */; };
 		C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */; };
 		C8E05E5A2426AEFC00340B9F /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */; };
@@ -105,6 +110,11 @@
 		C8832246242B168F0090412C /* OpenTemplateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTemplateScreen.swift; sourceTree = "<group>"; };
 		C8832248242B179F0090412C /* ContentScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContentScreens.storyboard; sourceTree = "<group>"; };
 		C8875C53243CBBEA00F8139B /* A3rad_TasalobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3rad_TasalobViewController.swift; sourceTree = "<group>"; };
+		C892859C246382F20015FC77 /* table_1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = table_1.pdf; sourceTree = "<group>"; };
+		C892859E246383060015FC77 /* table_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = table_2.pdf; sourceTree = "<group>"; };
+		C89285A0246384270015FC77 /* PDFViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerViewController.swift; sourceTree = "<group>"; };
+		C89285A1246384270015FC77 /* PDFViewerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDFViewerViewController.xib; sourceTree = "<group>"; };
+		C89285A4246388780015FC77 /* anwa3_tasalobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anwa3_tasalobViewController.swift; sourceTree = "<group>"; };
 		C8E05E522426933800340B9F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C8E05E5524269BFB00340B9F /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 		C8E05E592426AEFC00340B9F /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +247,8 @@
 		C870DFD12424EE0F00B84783 /* AMAD */ = {
 			isa = PBXGroup;
 			children = (
+				C892859C246382F20015FC77 /* table_1.pdf */,
+				C892859E246383060015FC77 /* table_2.pdf */,
 				C84E9EE72449AF5D005BF752 /* patient_1.mp4 */,
 				C84E9EEA2449B295005BF752 /* patient_2.mp4 */,
 				C8832245242B16720090412C /* Helpers */,
@@ -266,6 +278,9 @@
 				C84E9EF2244B320F005BF752 /* infoViewController.swift */,
 				C84E9EF4244B36AB005BF752 /* SocialMediaViewController.swift */,
 				C84E9EF6244B37DD005BF752 /* SupportVCViewController.swift */,
+				C89285A0246384270015FC77 /* PDFViewerViewController.swift */,
+				C89285A1246384270015FC77 /* PDFViewerViewController.xib */,
+				C89285A4246388780015FC77 /* anwa3_tasalobViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -414,8 +429,11 @@
 				C84E9EEB2449B2A7005BF752 /* patient_2.mp4 in Resources */,
 				C84E9EE82449AF6F005BF752 /* patient_1.mp4 in Resources */,
 				C8832249242B179F0090412C /* ContentScreens.storyboard in Resources */,
+				C89285A3246384270015FC77 /* PDFViewerViewController.xib in Resources */,
+				C892859D246382F20015FC77 /* table_1.pdf in Resources */,
 				C81CAE1224276C5A00965046 /* Auth.storyboard in Resources */,
 				C870DFDF2424EE1400B84783 /* LaunchScreen.storyboard in Resources */,
+				C892859F246383070015FC77 /* table_2.pdf in Resources */,
 				C870DFDC2424EE1400B84783 /* Assets.xcassets in Resources */,
 				C870DFDA2424EE0F00B84783 /* Main.storyboard in Resources */,
 			);
@@ -473,6 +491,7 @@
 				C81CAE1C242779C800965046 /* LoginViewController.swift in Sources */,
 				C84E9EF12449E7CF005BF752 /* Tazker_bel_gor3atViewController.swift in Sources */,
 				C8832247242B168F0090412C /* OpenTemplateScreen.swift in Sources */,
+				C89285A2246384270015FC77 /* PDFViewerViewController.swift in Sources */,
 				C84E9EE62449AE62005BF752 /* Leka2atTahomakViewController.swift in Sources */,
 				C8F08D502430289E00FC18E1 /* Tanafos_botenyViewController.swift in Sources */,
 				C8E05E5F2426C5E300340B9F /* MenuItem.swift in Sources */,
@@ -509,6 +528,7 @@
 				C8875C54243CBBEA00F8139B /* A3rad_TasalobViewController.swift in Sources */,
 				C8E05E532426933800340B9F /* RootViewController.swift in Sources */,
 				C870DFFB24252B3100B84783 /* TableView_Extension.swift in Sources */,
+				C89285A5246388780015FC77 /* anwa3_tasalobViewController.swift in Sources */,
 				C81CAE0A2426E8CB00965046 /* Labels.swift in Sources */,
 				C81CAE202427B2F300965046 /* MenuItemTapped.swift in Sources */,
 				C8E05E5624269BFB00340B9F /* SideMenuTableViewController.swift in Sources */,
@@ -660,7 +680,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BF84SJ63CM;
 				INFOPLIST_FILE = AMAD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -680,7 +700,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BF84SJ63CM;
 				INFOPLIST_FILE = AMAD/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

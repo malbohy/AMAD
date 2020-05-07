@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -435,10 +435,10 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
             </objects>
             <point key="canvasLocation" x="-4026" y="2233"/>
         </scene>
-        <!--View Controller-->
+        <!--Anwa3 tasalob View Controller-->
         <scene sceneID="HN9-wj-Dy1">
             <objects>
-                <viewController storyboardIdentifier="anwa3_tasalob" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3wq-SK-jdj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="anwa3_tasalob" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3wq-SK-jdj" customClass="anwa3_tasalobViewController" customModule="AMAD" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BzQ-2F-lTW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -447,7 +447,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-to-eda">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
                                         <string key="text">1. التصلب المتعدد الانتكاسي المتردد (RRMS):
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -455,7 +455,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gni-gG-f0N">
-                                        <rect key="frame" x="0.0" y="220" width="320" height="215"/>
+                                        <rect key="frame" x="0.0" y="168" width="320" height="215"/>
                                         <string key="text">یتم تشخیص معظم مرضى التصلب المتعدد (حوالي 85 ٪) بھذا النوع.
 یعاني مریض التصلب المتعدد الانتكاسي من فترات متقطعة من الانتكاسات (نوبات) تتبعھا فترات من التعافي (سكون). التعافي بين النوبة والأخرى إما أن يكون كاملا أو يترك أثرا طويلا.
 أعراض التصلب المتعدد الانتكاسي الأكثر شيوعا:
@@ -465,40 +465,49 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" text="2. التصلب المتعدد التقدمي الأوّلي(PPMS):" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dJ-bO-eDe">
-                                        <rect key="frame" x="0.0" y="457" width="320" height="53"/>
+                                        <rect key="frame" x="0.0" y="405" width="320" height="53"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="textColor" red="0.91764705879999997" green="0.50588235290000005" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG6-ip-Z5Z">
-                                        <rect key="frame" x="0.0" y="532" width="320" height="86"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gG6-ip-Z5Z">
+                                        <rect key="frame" x="0.0" y="480" width="320" height="86"/>
                                         <string key="text">التصلب المتعدد التقدمي الأوّلي هو أحد أنواع المرض الأكثر تأثيرا على صحة المريض. یتم تشخیص 10-15 ٪ من مرضى التصلب المتعدد بالتصلب المتعدد التقدمي الأوّلي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ic-bK-oUD">
-                                        <rect key="frame" x="0.0" y="640" width="320" height="236.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ic-bK-oUD">
+                                        <rect key="frame" x="0.0" y="588" width="320" height="236.5"/>
                                         <string key="text">في ھذا النوع، یتدھور المرض من البدایة، ونادرا ما یكون ھناك أي انتكاسات أو تعافي. ومع ذلك قد یعاني بعض مرضى التصلب المتعدد التقدمي الأوّلي من انتكاسات في بعض الأحیان.
 يعد التصلب المتعدد التقدمي الأوّلي أكثر إعاقة من التصلب المتعدد الانتكاسي فمرضى التصلب المتعدد التقدمي الأوّلي يعتمدون على مساعدات التنقل أو الكراسي المتحركة بمعدل أكبر من مرضى التصلب المتعدد الانتكاسي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVr-Ku-oKL">
-                                        <rect key="frame" x="0.0" y="898.5" width="320" height="129"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVr-Ku-oKL">
+                                        <rect key="frame" x="0.0" y="846.5" width="320" height="129"/>
                                         <string key="text">أعراض التصلب المتعدد التقدمي الأوّلي الأكثر شيوعا هي الضعف التدريجي، مشاكل في الحركة وتصلب. هذه الأعراض ليست خاصة فقط بالتصلب المتعدد التقدمي الأوّلي ولكنها تعد أكثر استمرارا وأصعب في التحكم عن باقي أنواع التصلب المتعدد. </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-bn-hIo">
-                                        <rect key="frame" x="0.0" y="1049.5" width="320" height="150.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-bn-hIo">
+                                        <rect key="frame" x="0.0" y="997.5" width="320" height="150.5"/>
                                         <string key="text">يمكن أن يعاني الأشخاص المصابون بهذا النوع من مشاكل أكثر في التفكير والنطق عن الأشخاص المصابون بالتصلب المتعدد الانتكاسي. يحدث انخفاض حاد في نوعية حياة الأشخاص المصابون بهذا النوع بعد فقد وظيفة الذراع والتي تحدث أسرع في الأشخاص المصابون بالتصلب المتعدد التقدمي الأوّلي.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIZ-Pc-dfd">
+                                        <rect key="frame" x="0.0" y="1170" width="320" height="30"/>
+                                        <state key="normal" title="كيف تختلف اشكال التصلب اللويحي المتعدد ؟">
+                                            <color key="titleColor" red="0.81960784310000001" green="0.50588235290000005" blue="0.0078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openPDFButton:" destination="3wq-SK-jdj" eventType="touchUpInside" id="SvF-tM-7gH"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -3555,11 +3564,11 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="Cfi-fl-WaC">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cfi-fl-WaC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mEK-FP-Sng">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1083.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SDF-c8-hVS">
                                             <size key="itemSize" width="300" height="300"/>
@@ -3569,7 +3578,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                         </collectionViewFlowLayout>
                                         <cells>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="firstCell" id="ozj-TM-8Iy">
-                                                <rect key="frame" x="0.0" y="100" width="300" height="1000"/>
+                                                <rect key="frame" x="0.0" y="42" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CwK-Qv-2RO">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
@@ -3601,7 +3610,7 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                                 <size key="customSize" width="300" height="1000"/>
                                             </collectionViewCell>
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell2" id="eVg-UN-NQQ">
-                                                <rect key="frame" x="310" y="100" width="300" height="1000"/>
+                                                <rect key="frame" x="310" y="42" width="300" height="1000"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jva-wn-dIT">
                                                     <rect key="frame" x="0.0" y="0.0" width="300" height="1000"/>
@@ -3634,13 +3643,33 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhL-JJ-5un">
+                                        <rect key="frame" x="0.0" y="1091.5" width="320" height="108.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDJ-iw-hQU">
+                                                <rect key="frame" x="42" y="36.5" width="236" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="علاجات لمرض التصلب المتعدد">
+                                                    <color key="titleColor" red="0.92941176469999998" green="0.51764705879999995" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="openPDFFile:" destination="55X-wk-NLR" eventType="touchUpInside" id="QEC-Z3-QmL"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="cDJ-iw-hQU" firstAttribute="centerY" secondItem="WhL-JJ-5un" secondAttribute="centerY" id="4pZ-eE-nk6"/>
+                                            <constraint firstItem="cDJ-iw-hQU" firstAttribute="centerX" secondItem="WhL-JJ-5un" secondAttribute="centerX" id="b6U-rr-PS1"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="WhL-JJ-5un" firstAttribute="height" secondItem="mEK-FP-Sng" secondAttribute="height" multiplier="0.1" id="bXS-xn-ZNK"/>
                                     <constraint firstAttribute="height" constant="1200" id="hG8-PJ-IUT"/>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.94117647059999998" green="0.21960784310000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Q3Y-Ay-lP7" firstAttribute="trailing" secondItem="Cfi-fl-WaC" secondAttribute="trailing" id="GWb-au-Dab"/>
                             <constraint firstItem="Cfi-fl-WaC" firstAttribute="leading" secondItem="Q3Y-Ay-lP7" secondAttribute="leading" id="XVj-A9-ebB"/>
@@ -3668,6 +3697,12 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                         <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j8q-D4-Nao">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="700" id="VTt-8a-7R5"/>
+                                </constraints>
+                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="2Oc-PX-z5N">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                 <subviews>
@@ -3797,16 +3832,21 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                             </stackView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="j8q-D4-Nao" firstAttribute="width" secondItem="eKZ-2Y-Meh" secondAttribute="width" id="1xn-az-6Rf"/>
                             <constraint firstAttribute="bottom" secondItem="2Oc-PX-z5N" secondAttribute="bottom" id="3rn-Gl-SVH"/>
+                            <constraint firstItem="j8q-D4-Nao" firstAttribute="centerX" secondItem="ps7-Yd-iVK" secondAttribute="centerX" id="7FU-4X-YxH"/>
                             <constraint firstItem="2Oc-PX-z5N" firstAttribute="leading" secondItem="ps7-Yd-iVK" secondAttribute="leading" id="CQp-IN-3tC"/>
                             <constraint firstItem="2Oc-PX-z5N" firstAttribute="top" secondItem="ps7-Yd-iVK" secondAttribute="top" id="SFT-S2-RRv"/>
+                            <constraint firstItem="j8q-D4-Nao" firstAttribute="centerY" secondItem="ps7-Yd-iVK" secondAttribute="centerY" id="YUx-t0-kwz"/>
                             <constraint firstItem="ps7-Yd-iVK" firstAttribute="trailing" secondItem="2Oc-PX-z5N" secondAttribute="trailing" id="bUC-CD-mnr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ps7-Yd-iVK"/>
                     </view>
                     <size key="freeformSize" width="320" height="700"/>
                     <connections>
+                        <outlet property="addNewNotificationContainer" destination="2Oc-PX-z5N" id="qO8-sm-Eoq"/>
                         <outlet property="esmElDwarButton" destination="Ul5-bq-5Dd" id="v4w-OS-hpB"/>
+                        <outlet property="previousNotificationsContainer" destination="j8q-D4-Nao" id="VQx-rd-EYu"/>
                         <outlet property="timePickerButton" destination="eEi-iD-HgT" id="L7U-XY-gEd"/>
                         <outlet property="times" destination="qFz-gJ-34r" id="00M-aK-Ch5"/>
                     </connections>

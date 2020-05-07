@@ -19,6 +19,8 @@ class Tazker_bel_gor3atViewController: UIViewController {
     private var selectedDate:String = ""
     private var drageSechdualType = ""
     private var drageName = ""
+    @IBOutlet weak var addNewNotificationContainer: UIStackView!
+    @IBOutlet weak var previousNotificationsContainer: UIStackView!
     
     
     
@@ -33,11 +35,45 @@ class Tazker_bel_gor3atViewController: UIViewController {
         dragTimes()
         showTimes()
         
+        loadLocalNotifications()
+        
         
         
         
         // Do any additional setup after loading the view.
     }
+    
+    private func loadLocalNotifications(){
+        
+        self.previousNotificationsContainer.subviews.forEach({$0.removeFromSuperview()})
+        
+        let dragsNotifications =  UserDefaults.standard.array(forKey: "Drags")
+        
+        addNewNotificationContainer.isHidden = false
+        previousNotificationsContainer.isHidden = true
+        if let _ = dragsNotifications {
+            addNewNotificationContainer.isHidden = true
+            previousNotificationsContainer.isHidden = false
+            print(dragsNotifications!)
+            dragsNotifications!.map { (value) in
+                let label = UILabel()
+                label.text = "You Have Reminder For : \(value as! String)"
+                print(value)
+                self.previousNotificationsContainer.addArrangedSubview(label)
+            }
+            
+            
+            let button = UIButton()
+            button.setTitle("اضافه الدواء جديد", for: .normal)
+            button.backgroundColor = UIColor.orange
+            button.rx.tap.subscribe(onNext: { (_) in
+                self.addNewNotificationContainer.isHidden = false
+                self.previousNotificationsContainer.isHidden = true
+            })
+            self.previousNotificationsContainer.addArrangedSubview(button)
+        }
+    }
+    
     
     @IBAction func esmElDwa2(_ sender: Any) {
         
@@ -163,16 +199,6 @@ class Tazker_bel_gor3atViewController: UIViewController {
     
     
     func validateSelectedValues(){
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         if drageName == "الرجاء اختيار اسم الدواء من القائمه"{
             showErrorMessage(for: "Drag Name")
             return
@@ -213,8 +239,31 @@ class Tazker_bel_gor3atViewController: UIViewController {
         }
         
         print("time interval before change : \(timeIntervalForNotifications)")
-        localNotification(withNotificationName: "it is time for your medicine : \(drageName)", time: timeIntervalForNotifications)
-        self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {})
+        localNotification(withNotificationName: "it is time for your medicine : \(drageName)", time: timeIntervalForNotifications, notificationID: drageName)
+        
+        
+        let dragsNotifications =  UserDefaults.standard.array(forKey: "Drags")
+        if let _ =  dragsNotifications{
+            if dragsNotifications!.count > 0{
+                var newDrags = dragsNotifications!
+                newDrags.append(drageName)
+                UserDefaults.standard.setValue(newDrags, forKeyPath: "Drags")
+            }else{
+                UserDefaults.standard.setValue([self.drageName], forKeyPath: "Drags")
+            }
+        }else{
+            UserDefaults.standard.setValue([self.drageName], forKeyPath: "Drags")
+        }
+        
+        
+        
+        
+        self.showAlert(withTitle: "Succeed", message: "Notification Setted", actionTitle: "Ok", action: {
+//            self.addNewNotificationContainer.isHidden = true
+//            self.previousNotificationsContainer.isHidden = false
+            self.loadLocalNotifications()
+            return ""
+        })
         
         
         
@@ -243,6 +292,14 @@ class Tazker_bel_gor3atViewController: UIViewController {
         self.showAlert(withTitle: "Wrong \(inputName)", message: "Please select \(inputName) from menu", actionTitle: "Try Again", action: {})
     }
     
+    @IBAction func addNewNotification(_ sender: Any) {
+        self.addNewNotificationContainer.isHidden = false
+        self.previousNotificationsContainer.isHidden = true
+        
+    }
+    
+    
+    
 }
 
 
@@ -259,14 +316,14 @@ struct localNotification{
     let appDelegate = UIApplication.shared.delegate as? AppDelegate
     let notificationName:String
     let notificationTime:TimeInterval
-    init(withNotificationName:String, time:TimeInterval) {
+    init(withNotificationName:String, time:TimeInterval, notificationID:String) {
         self.notificationName = withNotificationName
         self.notificationTime = time
-        getAcceccToNotifications()
+        getAcceccToNotifications(notificationID: notificationID)
     }
     
     
-    private func getAcceccToNotifications(){
+    private func getAcceccToNotifications(notificationID:String){
         //        notificationCenter.getNotificationSettings { (settings) in
         //          if settings.authorizationStatus != .authorized {
         //
@@ -283,14 +340,14 @@ struct localNotification{
         
         notificationCenter.getNotificationSettings { (settings) in
             if settings.authorizationStatus == .authorized {
-                self.scheduleNotification(notificationType: self.notificationName)
+                self.scheduleNotification(notificationType: self.notificationName,notificationID: notificationID)
             }
         }
         
     }
     
     
-    func scheduleNotification(notificationType: String) {
+    func scheduleNotification(notificationType: String, notificationID:String) {
         //        self.appDelegate?.scheduleNotification(notificationType: notificationType)
         let content = UNMutableNotificationContent()
         
@@ -304,7 +361,7 @@ struct localNotification{
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: true)
         
-        let request = UNNotificationRequest(identifier: "content", content: content, trigger: trigger)
+        let request = UNNotificationRequest(identifier: notificationID, content: content, trigger: trigger)
         notificationCenter.add(request, withCompletionHandler: nil)
         
         
