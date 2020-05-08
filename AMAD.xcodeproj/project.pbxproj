@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8058A642465E16100C9FC81 /* elMarage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8058A632465E16100C9FC81 /* elMarage3ViewController.swift */; };
 		C81CAE072426E72300965046 /* UILabelExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CAE062426E72300965046 /* UILabelExtenstion.swift */; };
 		C81CAE0A2426E8CB00965046 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81CAE092426E8CB00965046 /* Labels.swift */; };
 		C81CAE1224276C5A00965046 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81CAE1124276C5A00965046 /* Auth.storyboard */; };
@@ -68,6 +69,7 @@
 /* Begin PBXFileReference section */
 		26BAE3952788802611495203 /* Pods-AMAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMAD.debug.xcconfig"; path = "Target Support Files/Pods-AMAD/Pods-AMAD.debug.xcconfig"; sourceTree = "<group>"; };
 		9AA81C07F4D238FCD8B2454A /* Pods_AMAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8058A632465E16100C9FC81 /* elMarage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elMarage3ViewController.swift; sourceTree = "<group>"; };
 		C81CAE062426E72300965046 /* UILabelExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtenstion.swift; sourceTree = "<group>"; };
 		C81CAE092426E8CB00965046 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		C81CAE0D24276B0F00965046 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 				C89285A0246384270015FC77 /* PDFViewerViewController.swift */,
 				C89285A1246384270015FC77 /* PDFViewerViewController.xib */,
 				C89285A4246388780015FC77 /* anwa3_tasalobViewController.swift */,
+				C8058A632465E16100C9FC81 /* elMarage3ViewController.swift */,
 			);
 			path = AMAD;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				C870DFD72424EE0F00B84783 /* ViewController.swift in Sources */,
 				C870DFFC24252B3100B84783 /* Data_Extension.swift in Sources */,
 				C870DFF924252B3100B84783 /* CollectionVIew+Extenstions.swift in Sources */,
+				C8058A642465E16100C9FC81 /* elMarage3ViewController.swift in Sources */,
 				C870DFD32424EE0F00B84783 /* AppDelegate.swift in Sources */,
 				C870E00024252B3100B84783 /* UINavigationController.swift in Sources */,
 				C870DFFF24252B3100B84783 /* Encodable_Extenstion.swift in Sources */,
