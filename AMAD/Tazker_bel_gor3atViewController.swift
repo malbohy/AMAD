@@ -40,6 +40,7 @@ class Tazker_bel_gor3atViewController: UIViewController {
         
         
         
+        
         // Do any additional setup after loading the view.
     }
     
@@ -51,26 +52,43 @@ class Tazker_bel_gor3atViewController: UIViewController {
         
         addNewNotificationContainer.isHidden = false
         previousNotificationsContainer.isHidden = true
-        if let _ = dragsNotifications {
-            addNewNotificationContainer.isHidden = true
-            previousNotificationsContainer.isHidden = false
-            print(dragsNotifications!)
-            dragsNotifications!.map { (value) in
-                let label = UILabel()
-                label.text = "You Have Reminder For : \(value as! String)"
-                print(value)
-                self.previousNotificationsContainer.addArrangedSubview(label)
+        if let _ = dragsNotifications{
+            if dragsNotifications!.count > 0 {
+                addNewNotificationContainer.isHidden = true
+                previousNotificationsContainer.isHidden = false
+                
+                print(dragsNotifications!)
+                dragsNotifications!.map { (value) in
+                    let label = UILabel()
+                    label.text = "You Have Reminder For : \(value as! String)"
+                    label.rx.anyGesture(.longPress()).when(.ended).subscribe(onNext: { (_) in
+                        self.showAlert(withTitle: "Delete", message: "Are you sure You Want To Delete This Notification?", actionTitle: "Ok", action: {
+                            _ = localNotificationDelete(notificationID: "\(value)")
+                            let prevNotifications =  UserDefaults.standard.array(forKey: "Drags")!.filter { (drageNem) -> Bool in
+                                print(value)
+                                return drageNem as! String != (value as! String)
+                            }
+                            
+                            UserDefaults.standard.set(prevNotifications, forKey: "Drags")
+                            self.loadLocalNotifications()
+                          return ""
+                        })
+                    })
+                    print(value)
+                    self.previousNotificationsContainer.addArrangedSubview(label)
+                }
+                
+                
+                let button = UIButton()
+                button.setTitle("اضافه الدواء جديد", for: .normal)
+                button.backgroundColor = UIColor.orange
+                button.rx.tap.subscribe(onNext: { (_) in
+                    self.addNewNotificationContainer.isHidden = false
+                    self.previousNotificationsContainer.isHidden = true
+                })
+                self.previousNotificationsContainer.addArrangedSubview(button)
             }
             
-            
-            let button = UIButton()
-            button.setTitle("اضافه الدواء جديد", for: .normal)
-            button.backgroundColor = UIColor.orange
-            button.rx.tap.subscribe(onNext: { (_) in
-                self.addNewNotificationContainer.isHidden = false
-                self.previousNotificationsContainer.isHidden = true
-            })
-            self.previousNotificationsContainer.addArrangedSubview(button)
         }
     }
     
@@ -366,12 +384,46 @@ struct localNotification{
         
         
         
+        
+        
+        
+        
+    }
+    
+    
+    func deleteNotification(withID notificationID:String){
+        notificationCenter.removePendingNotificationRequests(withIdentifiers: [notificationID])
     }
     
     
     
     
 }
+
+
+
+
+struct localNotificationDelete{
+    let notificationCenter = UNUserNotificationCenter.current()
+    let options: UNAuthorizationOptions = [.alert, .sound, .badge]
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+//    let notificationName:String
+//    let notificationTime:TimeInterval
+    init(notificationID:String) {
+        deleteNotification(withID: notificationID)
+    }
+    
+    func deleteNotification(withID notificationID:String){
+        notificationCenter.removePendingNotificationRequests(withIdentifiers: [notificationID])
+    }
+    
+    
+    
+    
+}
+
+
+
 
 
 //extension AppDelegate: UNUserNotificationCenterDelegate {

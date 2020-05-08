@@ -331,14 +331,14 @@ p9i6INmI2KfZhNit2KjZhA0g2KfZhNi02YjZg9mKINmI2KfZhNij2LnYtdin2Kgg2KfZhNio2LXYsdmK
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="cell3" id="PLC-Do-EnU">
                                                 <rect key="frame" x="594" y="80" width="287" height="1040"/>
                                                 <autoresizingMask key="autoresizingMask"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dbc-g3-P3O">
+                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="dbc-g3-P3O">
                                                     <rect key="frame" x="0.0" y="0.0" width="287" height="1040"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sxv-CG-wjv">
+                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sxv-CG-wjv">
                                                             <rect key="frame" x="3" y="1" width="283" height="1038"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a3rad_el_tasalob_3" translatesAutoresizingMaskIntoConstraints="NO" id="wMl-SN-hZ1">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="a3rad_el_tasalob_3" translatesAutoresizingMaskIntoConstraints="NO" id="wMl-SN-hZ1">
                                                                     <rect key="frame" x="0.0" y="0.0" width="283" height="1038"/>
                                                                 </imageView>
                                                             </subviews>
